@@ -1,0 +1,39 @@
+.cust{
+  margin-top:-10px;
+}
+.txt-right{
+    text-align: right;
+}
+
+.txt-center{
+    text-align: center;
+}
+.txt-left{
+    text-align: left;
+}
+.txt-justify{
+    text-align: justify;
+}
+.txt-decoration-none{
+    text-decoration: none;
+}
+.font-weight-bolder{
+    font-weight: bolder;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.font-weight-lighter{
+    font-weight: lighter;
+}
+.font-weight-light{
+    font-weight: 200;
+}
+
+.align{
+    margin-top:40px;
+    margin-left:30px;
+}
+.align1{
+    margin-top:40px;
+}
