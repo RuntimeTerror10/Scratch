@@ -1,0 +1,80 @@
+.color-head{
+    text-align: center;
+    font-family: Righteous;
+    font-size: 2.5rem;
+    cursor: text;
+}
+
+.color-sub-head{
+    font-family: Righteous;
+    margin-top:46px;
+    margin-left:15px;
+    font-size:2rem;
+  }
+
+  /*css main file*/
+  .txt-blue{
+      color:#008cff;
+  }
+  .txt-green{
+      color: #23c214;
+  }
+  .txt-yellow{
+      color: #eed707;
+  }
+  .txt-red{
+      color: #f53518;
+  }
+  .txt-dark{
+      color: #242222;
+  }
+  .txt-bright{
+      color:white;
+  }
+  .bg-dark{
+        background-color: #242222;
+  }
+  .txt-violet{
+      color: violet;
+  }
+  .txt-orange{
+      color: orangered;
+  }
+  .web-align{
+      margin-top:15px;
+      font-family: signika;
+      font-size:1.2rem;
+      margin-left:30px;
+  }
+
+
+.web-align2{
+    margin-top:15px;
+    font-family:signika;
+    padding:15px;
+    font-size:1.3r  
+  }
+.bg-blue{
+    background-color: #008cff;
+}
+.bg-green{
+    background-color: #23c214;
+}
+.bg-yellow{
+    background-color: #eed707;
+}
+.bg-bright{
+    background-color: #fff;
+}
+.bg-violet{
+    background-color: violet;
+}
+.bg-orange{
+    background-color: orangered;
+}
+.bg-red{
+    background-color: #f53518;
+}
+.resp-align{
+    margin-top:40px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="color.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Documentation | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b>Getting Started</b></p>
+                    <p class="side-head uti-head"><a
+                            href="doc-color.html"><b>Utilities</b> </a></p>
+                            <div class="comp">
+                                <p class="comp-list side-link"><a  href="doc-border.html">Borders</a></p>
+                            </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a style="color:#009758"
+                                href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+
+                    <p style="color:white;padding-left:10px;" class="comp-list"><b>Components</b> </p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-badge.html">Badges</a></p>
+                        <p  class="comp-list side-link"><a href="doc-btn.html">Buttons</a></p>
+                        <p  class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+                        <p  class="comp-list side-link"><a href="doc-spin.html">Spinners</a></p>
+                    </div>
+
+                </div>
+            </aside>
+            <a href="index.html">
+                <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+            </a>
+            <label for='check' class='button'><i class="fas fa-bars"></i></label>
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Colors</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i> Scratch provides various color
+                shades and ready to use anywhere the user wants.</p>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i> Using color to add meaning only
+                provides a visual indication, which will not be conveyed to users of assistive technologies – such as
+                screen readers.</p>
+
+            <h2 class="color-sub-head">Text color</h2>
+            <div class="custom-txt">
+                <p class="custom-para">Given below are the text color classes with their respective colors by Scratch.
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">You can give the text any other color by simply adding a custom CSS class.
+            </div>
+            <div class="sample resp-align">
+                <p class="txt-blue web-align">.txt-blue</p>
+                <p class="txt-green web-align">.txt-green</p>
+                <p class="txt-yellow web-align">.txt-yellow</p>
+                <p class="txt-red web-align">.txt-red</p>
+                <p class="txt-bright bg-dark web-align" style="width: max-content;">.txt-bright</p>
+                <p class="txt-dark web-align">.txt-dark</p>
+                <p class="txt-violet web-align">.txt-violet</p>
+                <p class="txt-orange web-align">.txt-orange</p>
+
+            </div>
+            <br />
+            <hr>
+            <h2 class="color-sub-head">Background color</h2>
+            <div class="sample resp-align">
+                <p class="bg-blue web-align2">.bg-blue</p>
+                <p class="bg-green web-align2">.bg-green</p>
+                <p class="bg-yellow web-align2">.bg-yellow</p>
+                <p class="bg-red web-align2">.bg-red</p>
+                <p class="bg-bright txt-dark web-align2">.bg-bright</p>
+                <p class="bg-dark txt-bright web-align2">.bg-dark</p>
+                <p class="bg-violet web-align2">.bg-violet</p>
+                <p class="bg-orange web-align2">.bg-orange</p>
+
+            </div>
+        </div>
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                    <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+        <div class="btm-nav" id="nv">
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+    </body>
+    <script src="preloader.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>
