@@ -192,6 +192,9 @@ body {
   .side-link{
       color:white;
   }
+  .uti-head{
+      padding-top:10px;
+  }
   .comp{
     display: flex;
     flex-direction:column;
@@ -397,7 +400,7 @@ body {
 
 @media(max-width:822px){
 .align-show-btn{
-      display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top:25px;
@@ -468,6 +471,7 @@ body {
     padding-bottom: 20px;
     border-radius: 20px;
     padding-left:5px;
+    margin-top:20px;
     
     
     }
