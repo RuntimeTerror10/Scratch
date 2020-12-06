@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="border.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Border | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p  class="side-head"><b>Getting Started</b></p>
+
+                    <p class="side-head uti-head"><a
+                            href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a class="current" href="doc-borer.html">Borders</a></p>
+                    </div>
+                    <div class="comp">
+                        <p  class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p  class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+
+                    <p class="side-head uti-head"><b>Components</b> </p>
+                    <div class="comp">
+
+                        <a href="doc-badge.html">
+                            <p class="comp-list side-link">Badges</p>
+                        </a>
+                        <a href="doc-btn.html">
+                            <p class="comp-list side-link">Buttons
+                        </a></p>
+                        <p class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+
+
+                        <a href="doc-spin.html">
+                            <p class="comp-list side-link">Spinners</p>
+                        </a>
+                    </div>
+
+                </div>
+            </aside>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+                </a>
+                <label for='check' class='button'><i class="fas fa-bars"></i></label>
+            </div>
+
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Borders</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>Highlight your webpage components by adding
+                borders around them.</p>
+
+            <h2 class="sub-head">Border-radius</h2>
+
+            <p class="abt-sub">Add classes to an element to easily round it's corners. </p>
+            <div class="sample resp-align">
+                <div class="border-deft rounded  space"></div>
+                <div class="border-deft rounded-top space"></div>
+                <div class="border-deft rounded-bottom space"></div>
+                <div class="border-deft rounded-right space"></div>
+                <div class="border-deft rounded-left space"></div>
+                <div class="border-deft rounded-circle space"></div>
+                <div class="border-deft extend rounded-pill space border-align"></div>
+               
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="rad">
+                <code>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded</b>"&gt;&lt;div&gt;</p>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded-top</b>"&gt;&lt;div&gt;</p>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded-bottom</b>"&gt;&lt;div&gt;</p>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded-right</b>"&gt;&lt;div&gt;</p>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded-left</b>"&gt;&lt;div&gt;</p>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded-circle</b>"&gt;&lt;div&gt;</p>
+                    <p class="snip-code">&lt;div class=".... <b class="class">rounded-pill</b>"&gt;&lt;div&gt;</p>
+
+                </code>
+
+            </div>
+            <div class="main-hr">
+                    <hr>
+                </div>
+
+            <h2 class="sub-head">Border-color</h2>
+            <p class="abt-sub">Add colors to an element's border.</p>
+            <div class="sample resp-align">
+                    <div class="border rounded border-blue  space"></div>
+                    <div class="border rounded-top border-green space"></div>
+                    <div class="border rounded-bottom border-red space"></div>
+                    <div class="border rounded-right border-yellow space"></div>
+                    <div class="border rounded-left border-bright space"></div>
+                    <div class="border rounded-circle border-dark space"></div>
+                  
+                    
+    
+                </div>
+                <div class="align-show-btn">
+                        <button class="reveal" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+                    </div>
+                    <div class="snip" id="col">
+                            <code>
+                                <p class="snip-code">&lt;div class=".... <b class="class">rounded border-blue</b>"&gt;&lt;div&gt;</p>
+                                <p class="snip-code">&lt;div class=".... <b class="class">rounded-top border-green</b>"&gt;&lt;div&gt;</p>
+                                <p class="snip-code">&lt;div class=".... <b class="class">rounded-bottom border-red</b>"&gt;&lt;div&gt;</p>
+                                <p class="snip-code">&lt;div class=".... <b class="class">rounded-right border-yellow</b>"&gt;&lt;div&gt;</p>
+                                <p class="snip-code">&lt;div class=".... <b class="class">rounded-left border-bright</b>"&gt;&lt;div&gt;</p>
+                                <p class="snip-code">&lt;div class=".... <b class="class">rounded-circle border-dark</b>"&gt;&lt;div&gt;</p>
+            
+                            </code>
+                            <p class="abt-sub">You can also add <b class="class">"border-violet"</b> and <b class="class">"border-orange"</b> or you can create another class to add your own color.</p>
+                        </div>
+                        <div class="main-hr">
+                                <hr>
+                            </div>
+                        <h2 class="sub-head">Border-style</h2>
+                        <p class="abt-sub">Add different styles of borders on elements as shown below.</p>
+                        <div class="sample resp-align">
+                                <div class="border-st rounded border-blue border-dotted  space"></div>
+                                <div class="border-st rounded-top border-green border-dash space"></div>
+                                <div class="border-st rounded-bottom border-red border-double space"></div>
+                                <div class="border-st rounded-right border-yellow border-solid space"></div>
+                                <div class="border-st rounded-left border-bright  border-ridge space"></div>
+                                <div class="border-st rounded-circle border-dark border-outset space"></div>
+                              
+                                
+                
+                            </div>
+                            <div class="align-show-btn">
+                                    <button class="reveal" onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+                                </div>
+
+                            <div class="snip" id="st">
+                                    <code>
+                                        <p class="snip-code">&lt;div class=".... <b class="class">rounded border-blue border-dotted</b>"&gt;&lt;div&gt;</p>
+                                        <p class="snip-code">&lt;div class=".... <b class="class">rounded-top border-green border-dash</b>"&gt;&lt;div&gt;</p>
+                                        <p class="snip-code">&lt;div class=".... <b class="class">rounded-bottom border-red border-double</b>"&gt;&lt;div&gt;</p>
+                                        <p class="snip-code">&lt;div class=".... <b class="class">rounded-right border-yellow border-solid</b>"&gt;&lt;div&gt;</p>
+                                        <p class="snip-code">&lt;div class=".... <b class="class">rounded-left border-bright border-ridge</b>"&gt;&lt;div&gt;</p>
+                                        <p class="snip-code">&lt;div class=".... <b class="class">rounded-circle border-dark border-outset</b>"&gt;&lt;div&gt;</p>
+                    
+                                    </code>
+
+                               
+
+                                </div>
+
+        </div>
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+        </div>
+        <div class="btm-nav" id="nv">
+
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+
+    </body>
+
+    <script src="preloader.js"></script>
+    <script src="border.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>
