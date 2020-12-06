@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+
+        <link rel="stylesheet" href="doc-spin.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Documentation | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b>Getting Started</b></p>
+                    <p class="side-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+                    <p class="side-head comp-list"><b>Components</b> </p>
+
+                    <div class="comp">
+
+                        <p class="comp-list side-link"><a href="doc-badge.html">Badges</a></p>
+                        <p class="comp-list side-link"><a href="doc-btn.html">Buttons</a></p>
+                        <p class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+
+                        <p class="comp-list side-link"><a href="doc-spin.html" class="current">Spinners</p></a>
+                    </div>
+
+                </div>
+            </aside>
+            <a href="index.html">
+                <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+            </a>
+            <label for='check' class='button'><i class="fas fa-bars"></i></label>
+        </nav>
+        <div class="content-spin">
+            <h1 class="main-head">Spinners / Loaders</h1>
+            <p class="abt-head "><i class="fas fa-angle-double-right abt-icon"></i> Indicate the loading state of your
+                project by using Scratch "spinners".</p>
+            <p class="abt-head "><i class="fas fa-angle-double-right abt-icon"></i> Add custom javascript code to toggle
+                its visibility.</p>
+            <br/>
+          
+            <h2 class="deft-spin-head">Default Spinners</h2>
+            <p class="abt-sub"><b>The most common and lightweight spinners.</b></p>
+            <div class="default-spin resp-align ">
+                <button class="spinner-blue"></button>
+                <button class="spinner-green"></button>
+                <button class="spinner-yellow"></button>
+                <button class="spinner-red"></button>
+                <button class="spinner-dark"></button>
+                <button class="spinner-orange"></button>
+
+            </div>
+            <div class="align-show-btn ">
+                <button class="reveal btn-fix" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="dflt">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-blue</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-green</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-yellow</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-red</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-dark</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-orange</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+
+            </div>
+            <br />
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="deft-spin-head ">Default Spinners (inverted)</h2>
+            <div class="default-spin resp-align alig">
+                <button class="spinner-blue-inv"></button>
+                <button class="spinner-green-inv"></button>
+                <button class="spinner-yellow-inv"></button>
+                <button class="spinner-red-inv"></button>
+                <button class="spinner-dark-inv"></button>
+                <button class="spinner-orange-inv"></button>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal  btn-fix" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="inv">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-blue-inv</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-green-inv</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-yellow-inv</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-red-inv</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-dark-inv</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-orange-inv</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="deft-spin-head alig">Arc spinner</h2>
+            <div class="default-spin resp-align alig">
+                <button class="spinner-arc-blue"></button>
+                <button class="spinner-arc-green"></button>
+                <button class="spinner-arc-yellow"></button>
+                <button class="spinner-arc-red"></button>
+                <button class="spinner-arc-dark"></button>
+                <button class="spinner-arc-orange"></button>
+
+
+
+            </div>
+
+            <div class="align-show-btn">
+                <button class="reveal btn-fix1" onclick="show_hide3()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="arc">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-blue</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-green</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-yellow</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-red</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-dark</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-orange</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">You can add your own colours by changing the <b class="class">border colour</b>
+                    of these arc loaders in your custom CSS class. </p>
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+
+            <h2 class="deft-spin-head alig">Glowing loader</h2>
+            <div class="default-spin resp-align alig">
+                <button class="spinner-glow-blue"></button>
+                <button class="spinner-glow-green"></button>
+                <button class="spinner-glow-yellow"></button>
+                <button class="spinner-glow-red"></button>
+                <button class="spinner-glow-dark"></button>
+                <button class="spinner-glow-orange"></button>
+
+            </div>
+
+            <div class="align-show-btn">
+                <button class="reveal btn-fix" onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="glow">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-glow-blue</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-glow-green</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-glow-yellow</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-glow-red</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-glow-dark</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-glow-orange</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">You can add your own colours by changing the <b class="class">background
+                        colour</b> of these Glowing loaders in your custom CSS class. </p>
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="deft-spin-head alig">Duo spinner</h2>
+            <div class="default-spin resp-align alig">
+                <button class="spinner-duo-blue"></button>
+                <button class="spinner-duo-green"></button>
+                <button class="spinner-duo-yellow"></button>
+                <button class="spinner-duo-red"></button>
+                <button class="spinner-duo-dark"></button>
+                <button class="spinner-duo-orange"></button>
+
+            </div>
+
+
+            <div class="align-show-btn">
+                <button class="reveal btn-fix" onclick="show_hide4()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+
+            <div class="snip" id="duo">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-blue</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-green</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-yellow</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-red</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-dark</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-orange</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para"> Add your own colours by changing the <b class="class">"border-top-color"</b>
+                    and<b class="class">"border-bottom-color"</b> of these duo spinners in your custom CSS class. </p>
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="deft-spin-head alig ">Sizes</h2>
+            <div class="custom-txt">
+                <p class="custom-para"><b>You can manipulate the size of the spinner / loader from the predefined
+                        classes from Scratch.</b> </p>
+            </div>
+            <h2 class="deft-spin-head alig">Large spinners/loaders</h2>
+
+            <div class="default-spin resp-align alig align-size">
+                <button class="spinner-blue spinner-lrg"></button>
+                <button class="spinner-duo-red spinner-lrg"></button>
+                <button class="spinner-arc-dark spinner-lrg"></button>
+
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">Make the spinners/loaders larger by adding the class =<b
+                        class="class">"spinner-lrg"</b></p>
+
+            </div>
+
+            <div class="align-show-btn">
+                <button class="reveal btn-fix" onclick="show_hide5()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="lrg">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-blue spinner-lrg</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-red spinner-lrg</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-dark spinner-lrg</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+
+            <h2 class="deft-spin-head alig">Small spinners/loaders</h2>
+            <div class="default-spin resp-align alig align-size">
+                <button class="spinner-blue spinner-sml"></button>
+                <button class="spinner-duo-red spinner-sml"></button>
+                <button class="spinner-arc-dark spinner-sml"></button>
+
+
+            </div>
+
+            <div class="custom-txt">
+                <p class="custom-para">Make the spinners/loaders smaller by adding the class =<b
+                        class="class">"spinner-sml"</b></p>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal btn-fix" onclick="show_hide6() "> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="sml">
+                <code>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-blue spinner-sml</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-duo-red spinner-sml</b>"&gt;&lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;div class="<b class="class">spinner-arc-dark spinner-sml</b>"&gt;&lt;/div&gt;</p>
+
+                    </code>
+            </div>
+            <div class="align-arrow">
+                <div class="btm-arrow" id="ar" onclick="pop()">
+                    <i class="fas fa-angle-double-up arrow" id="a"></i>
+                </div>
+                <div class="btm-nav" id="nv">
+                    <a href="index.html" class="btm-nav-link">
+                        <i class="fas fa-home btm-nav-icon"></i>
+                        <span class="-btm-nav-text">Home</span>
+                    </a>
+                    <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                        <i class="fas fa-file-alt btm-nav-icon"></i>
+                        <span class="btm-nav-text act">Documentation</span>
+                    </a>
+
+
+                    <a href="about.html" class="btm-nav-link">
+                        <i class="fas fa-user-friends btm-nav-icon"></i>
+                        <span class="btm-nav-text">About Us</span>
+                    </a>
+
+                </div>
+
+    </body>
+    <script src="preloader.js"></script>
+    <script src="doc-spin.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>
