@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="doc-jumbo.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Documentation | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b>Getting Started</b></p>
+                    <p class="side-head"><a
+                            href="doc-color.html"><b>Utilities</b> </a></p>
+                            <div class="comp">
+                                    <p  class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+                                </div>
+                            <div class="comp">
+                        <p  class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+                    <p  class="side-head comp-head"><b>Components</b> </p>
+                    <div class="comp">
+
+                        <p  class="comp-list side-link"><a href="doc-badge.html">Badges</a></p>
+                        <p class="comp-list side-link"><a href="doc-btn.html">Buttons</a></p>
+                        <p style="color: #009578;" class="comp-list"><a class="current"
+                                href="doc-jumbotron.html">Jumbotron</a></p>
+                        <p  class="comp-list side-link"><a href="doc-spin.html">Spinners</a></p>
+                    </div>
+
+                </div>
+            </aside>
+            <a href="index.html">
+                <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+            </a>
+            <label for='check' class='button'><i class="fas fa-bars"></i></label>
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Jumbotron</h1>
+            <p class="abt-jumbo"><i class="fas fa-angle-double-right abt-icon"></i>A jumbotron indicates a big box for
+                calling extra attention to some special content or information</p>
+            <p class="abt-jumbo"><i class="fas fa-angle-double-right abt-icon"></i>A simple, flexible viewport to
+                showcase your key points on your website.</p>
+
+            <div class="default-jumbo jumbo-alig">
+                <div class="jumbotron">
+                    <h1 class="jumbo-head">Hello World!</h1>
+                    <h3 class="jumbo-catch_line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod
+                        tempor.
+                    </h3>
+                    <hr class="jumbo-hr">
+                    <p class="jumbo-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <button type="button" class="btn btn-dark btn-lrg">Let's start</button>
+                </div>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal alig-reveal" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="jumbo">
+                <code>
+               <p class="snip-code"> &lt;div class=<b class="class">"jumbotron"</b>&gt;</p>
+                <p class="snip-code sub-code">&lt;h1 class="&gt;<b class="class">"jumbo-head"</b>&gt;Hello World!&lt;/h1&gt;</p>
+                  <p class="snip-code sub-code">&lt;h3 class=<b class="class">"jumbo-catch_line"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor&lt;/h3&gt;</p>
+                    <p class="snip-code sub-code">&lt;hr&gt;</p>
+                 <p class="snip-code sub-code">&lt;p class=<b class="class">"jumbo-content"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
+        
+                 <p class="snip-code sub-code">&lt;button type="button" class=<b class="class">"btn btn-dark btn-lrg"</b>&gt;Let's start&lt;/button&gt;</p>
+                <p class="snip-code">&lt;/div&gt;</p>
+                </code>
+
+            </div>
+            <hr class="jumbo-hr">
+            <h2 class="hd-jumbo">Centered Jumbotron</h2>
+            <div class="default-jumbo">
+                <div class="jumbotron jumbo-alig">
+                    <h1 class="jumbo-head txt-center">Hello World!</h1>
+                    <h3 class="jumbo-catch_line txt-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        eiusmod </h3>
+                    <hr class="jumbo-hr">
+                    <p class="jumbo-content txt-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <button type="button" class="btn btn-dark btn-lrg btn-center">Let's start</button>
+
+                </div>
+
+                <div class="align-show-btn">
+                    <button class="reveal" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code">
+                        </i></button>
+                </div>
+
+                <div class="snip" id="jumbo-center">
+                    <code>
+                   <p class="snip-code"> &lt;div class=<b class="class">"jumbotron"</b>&gt;</p>
+                    <p class="snip-code sub-code">&lt;h1 class="&gt;<b class="class">"jumbo-head txt-center"</b>&gt;Hello World!&lt;/h1&gt;</p>
+                      <p class="snip-code sub-code">&lt;h3 class=<b class="class">"jumbo-catch_line txt-center"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor.&lt;/h3&gt;</p>
+                        <p class="snip-code sub-code">&lt;hr&gt;</p>
+                     <p class="snip-code sub-code">&lt;p class=<b class="class">"jumbo-content txt-center"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
+            
+                     <p class="snip-code sub-code">&lt;button type="button" class=<b class="class">"btn btn-dark btn-lrg btn-center"</b>&gt;Let's start&lt;/button&gt;</p>
+                    <p class="snip-code">&lt;/div&gt;</p>
+                    </code>
+
+                </div>
+                <div class="custom-txt">
+                    <p class="custom-para">You can center all the text by using <b class="class">"txt-center"</b>
+                        and center the buttons by adding <b class="class">"btn-center"</b>.</p>
+                </div>
+
+                <hr class="jumbo-hr">
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">All the components of jumbotron are full customizable ,just add your own css
+                    classes on the elements. </p>
+                <p class="custom-para example">Example :</p>
+
+            </div>
+            <div class="jumbotron jumbo-background">
+                <h1 class="jumbo-head ">Hello World!</h1>
+                <h3 class="jumbo-catch_line ">Lorem ipsum dolor sit amet, consectetur adipiscing elit,eiusmod
+                    tempor</h3>
+                <hr class="jumbo-hr my-hr">
+                <p class="jumbo-content ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="btn btn-bright">Let's start</button>
+
+            </div>
+            <hr class="jumbo-hr">
+
+            <div class="custom-txt">
+                <p class="custom-para">Also try changing the <b class="class">"background-color"</b>and <b
+                        class="class">"color"</b>of font in jombotrons</b>.</p>
+            </div>
+
+            <div class="custom-txt">
+                <p class="custom-para">To know how to use Scratch's <b class="class">background</b> and <b
+                        class="class">font color classes</b> , visit the <a href="utilities.html"
+                        style="color:#009578">utilities</a> section or add your own CSS class for different shade.</p>
+            </div>
+
+            <div class="jumbotron bg-yellow">
+                <h1 class="jumbo-head txt-center">Hello World!</h1>
+                <h3 class="jumbo-catch_line txt-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod
+                    tempor</h3>
+                <hr class="jumbo-hr">
+                <p class="jumbo-content txt-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <button type="button" class="btn btn-dark btn-lrg btn-center">Let's start</button>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="bg">
+                <code>
+                   <p class="snip-code"> &lt;div class=<b class="class">"jumbotron bg-yellow"</b>&gt;</p>
+                    <p class="snip-code sub-code">&lt;h1 class="&gt;<b class="class">"jumbo-head txt-center"</b>&gt;Hello World!&lt;/h1&gt;</p>
+                      <p class="snip-code sub-code">&lt;h3 class=<b class="class">"jumbo-catch_line txt-center"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor.&lt;/h3&gt;</p>
+                        <p class="snip-code sub-code">&lt;hr&gt;</p>
+                     <p class="snip-code sub-code">&lt;p class=<b class="class">"jumbo-content txt-center"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
+            
+                     <p class="snip-code sub-code">&lt;button type="button" class=<b class="class">"btn btn-dark btn-lrg btn-center"</b>&gt;Let's start&lt;/button&gt;</p>
+                    <p class="snip-code">&lt;/div&gt;</p>
+                    </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">Here <b class="class">"bg-yellow"</b>is used to change the background color
+                    of jumbotron. </p>
+            </div>
+            <div class="jumbotron back-pink">
+                <h1 class="jumbo-head txt-center">Hello World!</h1>
+                <h3 class="jumbo-catch_line txt-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod
+                    tempor</h3>
+                <hr class="jumbo-hr">
+                <p class="jumbo-content txt-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <button type="button" class="btn btn-dark btn-lrg btn-center btn-brd">Let's start</button>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide3()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="bg2">
+                <code>
+                   <p class="snip-code"> &lt;div class=<b class="class">"jumbotron</b> <b style="color: blue;">back-pink</b>"&gt;</p>
+                    <p class="snip-code sub-code">&lt;h1 class="&gt;<b class="class">"jumbo-head txt-center"</b>&gt;Hello World!&lt;/h1&gt;</p>
+                      <p class="snip-code sub-code">&lt;h3 class=<b class="class">"jumbo-catch_line txt-center"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor&lt;/h3&gt;</p>
+                        <p class="snip-code sub-code">&lt;hr&gt;</p>
+                     <p class="snip-code sub-code">&lt;p class=<b class="class">"jumbo-content txt-center"</b>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
+            
+                     <p class="snip-code sub-code">&lt;button type="button" class=<b class="class">"btn btn-dark btn-lrg btn-center btn-brd"</b>&gt;Let's start&lt;/button&gt;</p>
+                    <p class="snip-code">&lt;/div&gt;</p>
+                    </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">Here <b style="color: blue;">"back-pink"</b>(custom CSS class) is used to change
+                    the background color of jumbotron. </p>
+            </div>
+        </div>
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                    <i class="fas fa-angle-double-up arrow" id="a"  ></i>
+            </div>
+        <div class="btm-nav" id="nv">
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+    </body>
+    <script src="preloader.js"></script>
+    <script src="jumbo.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>
