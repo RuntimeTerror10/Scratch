@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="doc-btn.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Buttons | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+               
+                <div class="list-content">
+                    <p  class="side-head"><b>Getting Started</b></p>
+                    <p class="side-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a  href="doc-border.html">Borders</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a  href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+
+                    <p class="side-head comp-head"><b>Components</b> </p>
+                    <div class="comp">
+                            
+                            <a href="doc-badge.html" ><p class="comp-list">Badges</p></a>
+                            <a href="doc-btn.html" class="current"> <p class="comp-list">Buttons</a></p>
+                            <p class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+
+                        
+                            <a href="doc-spin.html"><p class="comp-list side-link">Spinners</a></p>
+                    </div>
+
+                </div>
+            </aside>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+                </a>
+                <label for='check' class='button'><i class="fas fa-bars"></i></label>
+                </div>
+
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Buttons</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i> A graphical control element that
+                provides the user a simple way to trigger an event, like searching for a query at a search engine, or to
+                interact with dialog boxes.</p>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i> Check out Our Custom <b>Buttons</b>
+                styles with support for multiple sizes,states and easy Customization by users.</p>
+            <br />
+            <h2 class="sub-head">Default Button</h2>
+
+            <p class="abt-sub">Scratch includes several predefined button styles, each serving its own semantic
+                purpose, with a few extras thrown in for more control</p>
+            <div class="sample resp-align">
+                <button type="button" class="btn-blue">Blue</button>
+                <button type="button" class="btn-green">Green</button>
+                <button type="button" class="btn-yellow">Yellow</button>
+                <button type="button" class="btn-red">Red</button>
+                <button type="button" class="btn-bright">Bright</button>
+                <button type="black" class="btn-dark">Dark</button>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="dflt">
+                <code>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue</b>"&gt;Blue&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green</b>"&gt;Green&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-yellow</b>"&gt;Yellow&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-red</b>"&gt;Red&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-bright</b>"&gt;Bright&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-dark</b>"&gt;Dark&lt;/button&gt;</p>
+                </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">You can customize these by adding your own CSS class in your code.</p>
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="sub-head">Bread Button</h2>
+            <div class="sample resp-align">
+                <button type="button" class="btn-blue btn-brd ">Blue</button>
+                <button type="button" class="btn-green btn-brd">Green</button>
+                <button type="button" class="btn-yellow btn-brd">Yellow</button>
+                <button type="button" class="btn-red btn-brd">Red</button>
+                <button type="button" class="btn-bright btn-brd">Bright</button>
+                <button type="black" class="btn-dark btn-brd">Dark</button>
+
+            </div>
+            <div class="align-show-btn ">
+                <button class="reveal" onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="bread">
+                <code>
+                               <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue btn-brd</b>"&gt;Blue&lt;/button&gt;</p>
+                               <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green btn-brd</b>"&gt;Green&lt;/button&gt;</p>
+                               <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-yellow btn-brd</b>"&gt;Yellow&lt;/button&gt;</p>
+                               <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-red btn-brd</b>"&gt;Red&lt;/button&gt;</p>
+                               <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-bright btn-brd</b>"&gt;Bright&lt;/button&gt;</p>
+                               <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-dark btn-brd</b>"&gt;Dark&lt;/button&gt;</p>
+                            </code>
+
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">Display Bread buttons by adding <b class="class">"btn-brd"</b> after
+                    default button class .</p>
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">Example <i class="fas fa-angle-double-right abt-icon example"></i> class
+                    ="btn-yellow <b class="class"> btn-brd</b>"</p>
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="sub-head">Outline Button</h2>
+            <p class="abt-sub">Button that are composed to display in dark background.</p>
+            <div class="sample outl resp-align" style="background-color: black;">
+                <button type="button" class="btn-blue-out">Blue</button>
+                <button type="button" class="btn-green-out">Green</button>
+                <button type="button" class="btn-yellow-out">Yellow</button>
+                <button type="button" class="btn-red-out">Red</button>
+                <button type="button" class="btn-bright-out">Bright</button>
+                <button type="black" class="btn-violet-out">Violet</button>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal out-reveal" onclick="show_hide3()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="outline1">
+                <code>
+                                           <p class="snip-code"> &lt;button type="button" class="<b class="class;">btn-blue-out</b>"&gt;Blue&lt;/button&gt;</p>
+                                           <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green-out</b>"&gt;Green&lt;/button&gt;</p>
+                                           <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-yellow-out</b>"&gt;Yellow&lt;/button&gt;</p>
+                                           <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-red-out</b>"&gt;Red&lt;/button&gt;</p>
+                                           <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-bright-out</b>"&gt;Bright&lt;/button&gt;</p>
+                                           <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-violet-out</b>"&gt;Violet&lt;/button&gt;</p>
+                                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="sub-head inv-head">Inverted Button</h2>
+            <p class="abt-sub">Formatted for display in dark background.</p>
+            <div class="sample outl resp-align" style="background-color: black;">
+                <button type="button" class="btn-blue-inv">Blue</button>
+                <button type="button" class="btn-green-inv">Green</button>
+                <button type="button" class="btn-yellow-inv">Yellow</button>
+                <button type="button" class="btn-red-inv">Red</button>
+                <button type="button" class="btn-bright-inv">Bright</button>
+                <button type="black" class="btn-violet-inv">Violet</button>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal out-reveal" onclick="show_hide4()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="invert">
+                <code>
+                                                       <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue-inv</b>"&gt;Blue&lt;/button&gt;</p>
+                                                       <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green-inv</b>"&gt;Green&lt;/button&gt;</p>
+                                                       <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-yellow-inv</b>"&gt;Yellow&lt;/button&gt;</p>
+                                                       <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-red-inv</b>"&gt;Red&lt;/button&gt;</p>
+                                                       <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-bright-inv</b>"&gt;Bright&lt;/button&gt;</p>
+                                                       <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-violet-inv</b>"&gt;Violet&lt;/button&gt;</p>
+                                                    </code>
+
+            </div>
+
+            <p class="abt-sub inv-outl">The Outline and Inverted buttons can also be displayed as bread button by just
+                adding the class"<b class="class">btn-brd</b>" </p>
+            <div class="sample outl resp-align" style="background-color: black;">
+                <button type="button" class="btn-blue-out btn-brd">Blue</button>
+                <button type="button" class="btn-green-out btn-brd">Green</button>
+                <button type="button" class="btn-yellow-inv btn-brd">Yellow</button>
+                <button type="button" class="btn-red-inv btn-brd">Red</button>
+
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal out-reveal" onclick="show_hide5()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="invout">
+                <code>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue-out btn-brd</b>"&gt;Blue&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green-out btn-brd</b>"&gt;Green&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-yellow-inv btn-brd</b>"&gt;Yellow&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-red-inv btn-brd</b>"&gt;Red&lt;/button&gt;</p>
+                                                                </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="sub-head neon-head">Neon Button</h2>
+            <div class="sample resp-alig" style="background-color: black;">
+                <button type="button" class="btn-blue-neon pad">Blue</button>
+                <button type="button" class="btn-green-neon pad">Green</button>
+                <button type="button" class="btn-bright-neon pad">Bright</button>
+                <button type="button" class="btn-yellow-neon btn-brd pad">Yellow</button>
+                <button type="button" class="btn-red-neon btn-brd pad">Red</button>
+                <button type="button" class="btn-violet-neon btn-brd pad">Violet</button>
+
+
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal out-reveal" onclick="show_hide6()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="neon">
+                <code>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue-neon </b>"&gt;Blue&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green-neon </b>"&gt;Green&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-bright-neon </b>"&gt;Bright&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-yellow-neon btn-brd</b>"&gt;Yellow&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-red-neon btn-brd</b>"&gt;Red&lt;/button&gt;</p>
+                                                                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-violet-neon btn-brd</b>"&gt;Violet&lt;/button&gt;</p>
+
+                                                                </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="sub-head size-head">Sizes</h2>
+            <p class="abt-sub">Scratch provides you with additional size control of the buttons !!</p>
+            <h2 class="sub-head size-head">Large button</h2>
+            <p class="abt-size">Add class="<b class="class">btn-lrg</b>" to increase the size of the button.</p>
+            <div class="sample align-lrg-btn ">
+                <button type="button" class="btn-blue btn-lrg">Blue</button>
+                <button type="button" class="btn-green btn-lrg">Green</button>
+            </div>
+            <div class="align-show-btn align-btn">
+                <button class="reveal out-reveal" onclick="show_hide7()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="large">
+                <code>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue btn-lrg</b>"&gt;Blue&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green btn-lrg</b>"&gt;Green&lt;/button&gt;</p>
+                </code>
+                </div>
+                <div class="main-hr">
+                    <hr>
+                </div>
+                <h2 class="sub-head size-head">Small button</h2>
+            <p class="abt-size">Add class="<b class="class">btn-sml</b>" to decrease the size of the button.</p>
+            <div class="sample align-sml-btn">
+                <button type="button" class="btn-blue btn-sml">Blue</button>
+                <button type="button" class="btn-green btn-sml">Green</button>
+            </div>
+            <div class="align-show-btn align-btn">
+                <button class="reveal out-reveal" onclick="show_hide8()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="small">
+                <code>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-blue btn-sml</b>"&gt;Blue&lt;/button&gt;</p>
+                   <p class="snip-code"> &lt;button type="button" class="<b class="class">btn-green btn-sml</b>"&gt;Green&lt;/button&gt;</p>
+                </code>
+                </div>
+            
+               
+
+        </div>
+        <div class="align-arrow">
+        <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"  ></i>
+        </div>
+    </div>
+        <div class="btm-nav" id="nv">
+           
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+
+    </body>
+    
+    <script src="preloader.js"></script>
+    <script src="doc-btn.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>
