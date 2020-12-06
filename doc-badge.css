@@ -1,0 +1,25 @@
+.badge{
+    background-color:black;
+    color:white;
+    padding:3px 10px;
+    border-radius:5px;
+
+}
+.align{
+    
+    padding-top:20px;
+    margin-left:25px;
+}
+  .link{
+      color:blue;
+}
+.bg-green{
+    background-color: #23c214;
+}
+
+.bg-red{
+  background-color: #fc3516;
+}
+.txt-yellow{
+  color: #eed707;
+}
