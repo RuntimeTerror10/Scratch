@@ -203,8 +203,8 @@
 }
   body{
     background-image: linear-gradient(
-      rgba(32, 17, 121, 0.329), 
-      rgba(64, 126, 241, 0.329)
+      rgba(13, 4, 66, 0.733), 
+      rgba(11, 56, 139, 0.555)
     ),url('img/back.jpeg');
     background-repeat:no-repeat;
     background-size:cover;
