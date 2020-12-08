@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="space.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Spacing | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b>Getting Started</b></p>
+                    <p class="side-head uti-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-flex.html">Flex</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a class="current" href="doc-space.html">Spacing</a></p>
+                    </div>
+
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+
+                    <p style="color:white;padding-left:10px;" class="comp-list"><b>Components</b> </p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-badge.html">Badges</a></p>
+                        <p class="comp-list side-link"><a href="doc-btn.html">Buttons</a></p>
+                        <p class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+                        <p class="comp-list side-link"><a href="doc-spin.html">Spinners</a></p>
+                    </div>
+
+                </div>
+            </aside>
+            <a href="index.html">
+                <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+            </a>
+            <label for='check' class='button'><i class="fas fa-bars"></i></label>
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Spacing</h1>
+            <p class="abt-head "><i class="fas fa-angle-double-right abt-icon"></i>Modify your website appearance with
+                wide range of margin and padding utility classes.</p>
+            <p class="abt-head "><i class="fas fa-angle-double-right abt-icon"></i>In Scratch all the padding and margin
+                utilities use <b class="class">rem unit</b>.</p>
+            <p class="abt-head "><i class="fas fa-angle-double-right abt-icon"></i>The padding and margin utilties are
+                created ranging from <b class="class">0.25rem</b> to <b class="class">5rem</b>.</p>
+            <h2 class="sub-head">Notation</h2>
+            <div class="custom-para">
+                <p class="custom-txt">The classes are named with the following format :</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt"><b class="class">[property]-[side(if required)]-[size]</b></p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">Here the properties are <b class="class">.m</b> for margin and <b
+                        class="class">.p</b> for padding.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">If the side is not mentioned then the padding and margin will applied on all the
+                    sides of the element.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt"><b class="class">{t}</b> is used To set <b class="class">margin-top</b> and <b
+                        class="class">padding-top</b>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt"><b class="class">{b}</b> is used To set <b class="class">margin-bottom</b> and <b
+                        class="class">padding-bottom</b>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt"><b class="class">{r}</b> is used To set <b class="class">margin-right</b> and <b
+                        class="class">padding-right</b>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt"><b class="class">{l}</b> is used To set <b class="class">margin-left</b> and <b
+                        class="class">padding-left</b>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">margin can also be set to auto by adding <b class="class">"m-auto"</b> class.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">The size range from 0.25rem to 5rem where 0.25 is <b class="class">'1'</b> , 0.5
+                    is <b class="class">'2'</b>,0.75 is <b class="class">'3'</b> and so on. </p>
+            </div>
+
+            <h2 class="sub-head">Example</h2>
+            <div class="sample resp-align">
+                <div class=" box m-l-8 bg-red txt-bright">
+                    <p class="p-8">I am a container!</p>
+                </div>
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="ex1">
+                <code>
+                           <p class="snip-code">&lt;div class="<b class="class">... m-l-8</b>"&gt;</p>
+                                 <p class="snip-code">&lt;p class="<b class="class">p-8</b>"&gt;I am a container!&lt;/p&gt;</p>
+                               <p class="snip-code">&lt;/div&gt;</p>
+    
+                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <div class="sample resp-align">
+                <div class="m-l-10 m-r-10 bg-red txt-bright">
+                    <p class="p-10">I am a container!</p>
+                </div>
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="ex2">
+                <code>
+                               <p class="snip-code">&lt;div class="<b class="class">... m-l-10 m-r-10</b>"&gt;</p>
+                                     <p class="snip-code">&lt;p class="<b class="class">p-8</b>"&gt;I am a container!&lt;/p&gt;</p>
+                                   <p class="snip-code">&lt;/div&gt;</p>
+        
+                        </code>
+
+            </div>
+        </div>
+
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+            <div class="btm-nav" id="nv">
+                <a href="index.html" class="btm-nav-link">
+                    <i class="fas fa-home btm-nav-icon"></i>
+                    <span class="-btm-nav-text">Home</span>
+                </a>
+                <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                    <i class="fas fa-file-alt btm-nav-icon"></i>
+                    <span class="btm-nav-text act">Documentation</span>
+                </a>
+
+
+                <a href="about.html" class="btm-nav-link">
+                    <i class="fas fa-user-friends btm-nav-icon"></i>
+                    <span class="btm-nav-text">About Us</span>
+                </a>
+
+            </div>
+
+    </body>
+    <script src="preloader.js"></script>
+    <script src="btm-nav-anim.js"></script>
+    <script src="space.js"></script>
+
+</html>

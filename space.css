@@ -1,0 +1,29 @@
+.m-l-8{
+    margin-left:2rem;
+}
+.m-l-10{
+    margin-left:2.5rem;
+}
+.m-r-10{
+    margin-right: 2.5rem;
+}
+.p-8{
+    padding:2rem;
+}
+.p-10{
+    padding:2.5rem;
+}
+.bg-red{
+    background-color: rgb(221, 51, 51);
+}
+.txt-bright{
+    color:white;
+}
+.box{
+    display: inline-block;
+}
+.m-auto{
+  
+    margin: 0px auto;
+  
+}
