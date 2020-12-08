@@ -1,0 +1,83 @@
+.disp-flex {
+  display: flex;
+}
+.disp-inline-flex {
+  display: inline-flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-col{
+  flex-direction: column;
+}
+.flex-col-reverse{
+  flex-direction: column-reverse;
+}
+.justify-content-start{
+  justify-content: flex-start;
+}
+.justify-content-end{
+  justify-content: flex-end;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-stretch{
+  justify-content: stretch;
+}
+.justify-content-around{
+  justify-content: space-around;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-even{
+  justify-content: space-evenly;
+}
+.align-items-start{
+  align-items: start;
+}
+.align-items-end{
+  align-items: flex-end;
+}
+.align-items-center{
+  align-items: center;
+}
+.align-items-stretch{
+  align-items: stretch;
+}
+.align-items-baseline{
+  align-items: baseline;
+}
+.border-dark {
+  border-color: black;
+}
+.txt-bright {
+  color: white;
+}
+.div-h{
+height: 80px;
+}
+.pad {
+  padding: 10px;
+}
+.border {
+  background: rgb(71, 71, 71);
+  height:50%;
+  border-style: solid;
+}
+.rounded {
+  border-radius: 12px;
+}
+.bg-red {
+  background-color: #f53518;
+}
+.sub1 {
+  padding-left: 30px;
+}
+.sub2 {
+  padding-left: 50px;
+}
