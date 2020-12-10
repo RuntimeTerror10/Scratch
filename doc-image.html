@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="image.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Images | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b>Getting Started</b></p>
+                    <p class="side-head uti-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-flex.html">Flex</a></p>
+                    </div>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-space.html">Spacing</a></p>
+                    </div>
+
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text Align</a></p>
+                    </div>
+
+                    <p class="comp-list uti-head side-head"><b>Components</b> </p>
+                    <div class="comp">
+                        <p class="comp-list side-link"><a href="doc-badge.html">Badges</a></p>
+                        <p class="comp-list side-link"><a href="doc-btn.html">Buttons</a></p>
+                        <p class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+                        <p class="comp-list side-link"><a href="doc-spin.html">Spinners</a></p>
+                    </div>
+                    <p class="side-head uti-head" style="padding-right:90px;"><a href="doc-image.html"><b>Bonus <i
+                                    class="fas fa-star" style="color:yellow;"></i></b>
+                        </a>
+                    </p>
+                    <div class="comp">
+
+                        <a href="doc-image.html">
+                            <p class="comp-list current">images</p>
+                        </a>
+
+
+                    </div>
+
+                </div>
+            </aside>
+            <a href="index.html">
+                <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+            </a>
+            <label for='check' class='button'><i class="fas fa-bars"></i></label>
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Images</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>In the Bonus section we provide you
+                with cool effects and animations on different elements.</p>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>First up Images!!</p>
+            <h2 class="sub-head">Image Filters</h2>
+            <div class="custom-para">
+                <p class="custom-txt">Add visual effects like blur and contrast on images.</p>
+            </div>
+            <h2 class="sub-head1">Greyscale</h2>
+            <div class="custom-para">
+                <p class="custom-txt">To apply greyscale filter use <b class="class">"img-grey"</b> class.</p>
+            </div>
+            <img class="prim-imag" src="img/flower.jpg" alt="image of a flower">
+            <img class="prim-imag img-grey" src="img/flower.jpg" alt="image of a flower">
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="grey">
+                <code>
+                        <p class="snip-code">&lt;img class= <b class="class">"img-grey"</b> src="flower.jpg" alt="..."&gt;</p>
+                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head1">Inverted</h2>
+            <div class="custom-para">
+                <p class="custom-txt">To apply invert filter use <b class="class">"img-invert"</b> class.</p>
+            </div>
+            <img class="prim-imag" src="img/flower.jpg" alt="image of a flower">
+            <img class="prim-imag img-invert" src="img/flower.jpg" alt="image of a flower">
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide5()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="inv">
+                <code>
+                        <p class="snip-code">&lt;img class= <b class="class">"img-invert"</b> src="flower.jpg" alt="..."&gt;</p>
+                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+
+            <h2 class="sub-head1">Blur</h2>
+            <div class="custom-para">
+                <p class="custom-txt">To apply blur effect use <b class="class">"img-blur-{scale}"</b> class.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">Here scale represents the scale at which you want to blur the image.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">The scale of blur ranges from <b class="class">1</b> to <b class="class">5</b>.
+                </p>
+
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">Example : <b class="class">"img-blur-1"</b> , <b class="class">"img-blur-2"</b>
+                    upto <b class="class">"img-grey-5"</b>.</p>
+
+            </div>
+            <img class="prim-imag" src="img/flower.jpg" alt="image of a flower">
+            <img class="prim-imag img-blur-5" src="img/flower.jpg" alt="image of a flower">
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="blur">
+                <code>
+                        <p class="snip-code">&lt;img class= <b class="class">"img-blur-5"</b> src="flower.jpg" alt="..."&gt;</p>
+                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head1">Contrast</h2>
+            <div class="custom-para">
+                <p class="custom-txt">To apply the contrast effect use <b class="class">"img-contrast-{scale}"</b>
+                    class.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">The scale of contrast ranges from <b class="class">25</b> to <b
+                        class="class">100</b>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">Constrast keeps increasing with <b class="class">"img-contrast-25"</b>... <b
+                        class="class">"img-contrast-50"</b>... <b class="class">"img-contrast-75"</b> and at last... <b
+                        class="class">"img-contrast-100"</b>.</p>
+            </div>
+            <img class="prim-imag" src="img/flower.jpg" alt="image of a flower">
+            <img class="prim-imag img-contrast-75" src="img/flower.jpg" alt="image of a flower">
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide3()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="cont">
+                <code>
+                            <p class="snip-code">&lt;img class= <b class="class">"img-constrast-75"</b> src="flower.jpg" alt="..."&gt;</p>
+                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head1">Saturated</h2>
+            <div class="custom-para">
+                <p class="custom-txt">To apply the saturation effect use <b class="class">"img-saturate-{scale}"</b>
+                    class.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">The scale of saturation ranges from <b class="class">1</b> to <b
+                        class="class">5</b>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">Saturation keeps increasing with <b class="class">"img-saturate-1"</b>... <b
+                        class="class">"img-saturate-2"</b>... <b class="class">"img-saturate-3"</b>... <b
+                        class="class">"img-saturate-4"</b> and at last... <b class="class">"img-saturate-5"</b>.</p>
+            </div>
+            <img class="prim-imag" src="img/flower.jpg" alt="image of a flower">
+            <img class="prim-imag img-saturate-4" src="img/flower.jpg" alt="image of a flower">
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide4()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="sat">
+                <code>
+                            <p class="snip-code">&lt;img class= <b class="class">"img-saturate-4"</b> src="flower.jpg" alt="..."&gt;</p>
+                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head">Image overlay animation</h2>
+            <div class="custom-para">
+                <p class="custom-txt">Add hover animations on images.</p>
+            </div>
+            <h2 class="sub-head1">Fade animation</h2>
+            <div class="custom-para">
+                <p class="custom-para">Hover on the image below to see the overlay animation.</p>
+            </div>
+            <div class="img-container">
+                <img src="img/avatar.png" alt="Avatar" class="image">
+                <div class="img-overlay-fade">
+                    <div class="img-text">Text here</div>
+                </div>
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide6()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="fade">
+                <code>
+                       <p class="snip-code">&lt;div class=<b class="class">"img-container"</b>&gt;</p>
+                               <p class="snip-code code-al">&lt;img src="..." alt="Avatar" class=<b class="class">"image"</b>&gt;</p>
+                                <p class="snip-code code-al">&lt;div class= <b class="class">"img-overlay"</b>&gt;</p>
+                                   <p class="snip-code code-al">&lt;div class=<b class="class">"img-text"</b>&gt;Text here&lt;/div&gt;</p>
+                                <p class="snip-code">&lt;/div&gt;</p>
+                               
+
+                                    </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head1">zoom animation</h2>
+            <div class="custom-para">
+                <p class="custom-para">Hover on the image below to see the overlay animation.</p>
+            </div>
+            <div class="img-container">
+                <img src="img/avatar.png" alt="Avatar" class="image">
+                <div class="img-overlay-zoom">
+                    <div class="img-text">Text here</div>
+                </div>
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide7()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="zoom">
+                <code>
+                           <p class="snip-code">&lt;div class=<b class="class">"img-container"</b>&gt;</p>
+                                   <p class="snip-code code-al">&lt;img src="..." alt="Avatar" class=<b class="class">"image"</b>&gt;</p>
+                                    <p class="snip-code code-al">&lt;div class= <b class="class">"img-overlay-zoom"</b>&gt;</p>
+                                       <p class="snip-code code-al">&lt;div class=<b class="class">"img-text"</b>&gt;Text here&lt;/div&gt;</p>
+                                    <p class="snip-code">&lt;/div&gt;</p>
+                                   
+    
+                                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head">Flip animation</h2>
+            <div class="custom-para">
+                <p class="custom-txt">Hover on the image given below to see the flip animation.
+                </p>
+            </div>
+
+
+            <img class="gap img-flip" src="img/flower.jpg" alt="image of a flower">
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide8()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="flip">
+                <code>
+                            <p class="snip-code">&lt;img class=<b class="class">"img-flip"</b> src="flower.jpg" alt="..."&gt;</p>
+                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head">3-D Flip animation</h2>
+            <div class="custom-para">
+                <p class="custom-txt">Hover on the image given below to see the 3-D flip animation.
+                </p>
+            </div>
+
+            <div class="img-flip-container gap1">
+                <div class="flip-container-inner">
+                    <div class="flip-container-front">
+                        <img src="img/flower1.jpg" alt="Paris" style="width:300px;height:200px">
+                    </div>
+                    <div class="flip-container-back">
+                        <h2>Paris</h2>
+                        <p>What an amazing city</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide9()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="3d">
+                <code>
+                               <p class="snip-code">&lt;div class=<b class="class">"img-flip-container"</b>&gt;</p>
+                               <p class="snip-code">&lt;div class=<b class="class">"flip-container-inner"</b>&gt;</p>
+                               <p class="snip-code">&lt;div class=<b class="class">"flip-container-front"</b>&gt;</p>
+
+
+                                       <p class="snip-code code-al">&lt;img src="..." alt="..."&gt;</p>
+                                       <p class="snip-code">&lt;/div&gt;</p>
+                                        <p class="snip-code code-al">&lt;div class= <b class="class">"flip-container-back"</b>&gt;</p>
+                                        <p class="snip-code code-al">&lt;h2&gt;Hello&lt;/h2&gt;</p>
+                                     <p class="snip-code code-al">&lt;p&gt;Type text here.&lt;/p&gt;</p>
+                                           <p class="snip-code code-al">&lt;div &gt;</p>
+                                        <p class="snip-code code-al">&lt;/div&gt;</p>
+                                        <p class="snip-code">&lt;/div&gt;</p>
+                                       
+        
+                                            </code>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+            <div class="btm-nav" id="nv">
+                <a href="index.html" class="btm-nav-link">
+                    <i class="fas fa-home btm-nav-icon"></i>
+                    <span class="-btm-nav-text">Home</span>
+                </a>
+                <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                    <i class="fas fa-file-alt btm-nav-icon"></i>
+                    <span class="btm-nav-text act">Documentation</span>
+                </a>
+
+
+                <a href="about.html" class="btm-nav-link">
+                    <i class="fas fa-user-friends btm-nav-icon"></i>
+                    <span class="btm-nav-text">About Us</span>
+                </a>
+
+            </div>
+
+    </body>
+    <script src="preloader.js"></script>
+    <script src="btm-nav-anim.js"></script>
+    <script src="image.js"></script>
+
+</html>
