@@ -1,0 +1,246 @@
+.stat-card{
+     border-radius:15px;
+    display:inline-block ;
+    height: 600px;
+    max-width: 350px;
+    margin: 20px 20px;
+    background: white;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.stat-bottom-text {
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    background: white;
+    
+    transition: 0.1s;
+}
+
+.cen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y: hidden;
+}
+@media(max-width:671){
+   .cen{
+       display: flex;
+       flex-direction: column;
+       
+   }
+}
+.top-shift{
+    margin-top:-30px;
+}
+
+.card {
+    border-radius:15px;
+    display:inline-block ;
+    height: 280px;
+    max-width: 350px;
+    margin: 20px 20px;
+    background: white;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    height: 470px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .img-container {
+    height: 200px;
+    width: 100%;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .top-text {
+    padding: 5px;
+}
+
+.card-name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #202020;
+    padding:3px;
+}
+
+ .top-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+    padding:3px;
+
+}
+
+.card .bottom-text {
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.card:hover .bottom-text {
+    opacity: 1;
+    visibility: visible;
+}
+ .card-text {
+    text-align: justify;
+}
+
+.card-sub-head{
+    margin-top:8px;
+    padding-left:3px;
+}
+ .card-btn{
+    text-decoration: none;
+    background: #e74c3c;
+    color: #f2f2f2;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    transition: 0.2s;
+}
+
+
+
+.btn-green{
+    margin-top: 20px;
+  
+    font-family: signika;
+    color:white;
+    font-size:1.1rem;
+    background-color:#23c214;
+    border:3px solid #23c214;
+    width:90px;
+    height: 2.7rem;
+    border-radius: 10px;
+    cursor: pointer;
+    outline:none;
+    transition: 0.25s ease-in-out;
+}
+.btn-green:hover{
+    background-color:#189e0c ;
+    border:3px solid #189e0c;
+    transition:0.25s ease;
+}
+.btn-brd{
+        border-radius: 60px;
+}
+.code-al{
+    padding-left:30px;
+}
+.code-al1{
+padding-left: 38px;
+}
+.code-al2{
+    padding-left: 45px;
+    }
+    .code-al3{
+        padding-left: 55px;
+        }
+
+
+
+::selection {
+    color: #fff;
+    background: #56d8e4;
+}
+
+.flip-card-container {
+    display: block;
+
+    margin:0 auto;
+    height: 400px;
+    width: 320px;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.flip-card-container .flip-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    transform: translateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.flip-card-container:hover>.front-face {
+    transform: rotateY(-180deg);
+}
+
+.flip-card-container .flip-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.flip-card-container .back-face {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: rotateY(180deg);
+}
+
+.flip-card-container:hover>.back-face {
+    transform: rotateY(0deg);
+}
+
+.flip-card-container .back-face img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 50%;
+    background: black;
+}
+
+.flip-card-container .back-face .flip-card-info {
+    text-align: center;
+}
+
+.back-face .flip-card-info .flip-card-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.back-face ul {
+    display: flex;
+}
+
+.back-face ul a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 38px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    background:black;
+}
+
+.back-face ul a:hover {
+    color: black;
+    border-color: black;
+    background: linear-gradient(375deg, transparent, transparent);
+}

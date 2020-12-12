@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="card.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Cards | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head cust"><b>Getting Started</b></p>
+                    <p class="side-head uti-head" style="padding-right:90px;"><a href="doc-image.html"><b>Effects</b>
+                        </a>
+                    </p>
+                    <div class="comp">
+
+                        <a href="doc-image.html">
+                            <p class="comp-list side-link">images</p>
+                        </a>
+                        <a href="glowtxt.html">
+                            <p class="comp-list side-link">Glowing text</p>
+                        </a>
+
+
+                    </div>
+                    <p class="side-head uti-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp">
+
+                        <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+
+                        <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                        <div class="comp">
+                            <p class="comp-list side-link"><a href="doc-flex.html">Flex</a></p>
+                        </div>
+                        <div class="comp">
+                            <p class="comp-list side-link"><a href="doc-space.html">Spacing</a></p>
+                        </div>
+                        <div class="comp">
+                            <p class="comp-list"><a href="doc-txt.html">Text Align</a>
+                            </p>
+                        </div>
+                        <p class="side-head uti-head" style="padding-right:60px;"><a
+                                href="doc-badge.html"><b>Components</b> </a>
+                        </p>
+
+                        <div class="comp">
+
+                            <a href="doc-badge.html">
+                                <p class="comp-list side-link">Badges</p>
+                            </a>
+                            <a href="doc-btn.html">
+                                <p class="comp-list side-link">Buttons</p>
+                            </a>
+                            <a href="doc-card.html">
+                                <p class="comp-list current">Cards</p>
+                            </a>
+                            <p class="comp-list side-link"><a href="doc-jumbotron.html">Jumbotron</a></p>
+
+
+                            <a href="doc-spin.html">
+                                <p class="comp-list side-link">Spinners</p>
+                            </a>
+
+                        </div>
+
+
+                    </div>
+            </aside>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+                </a>
+                <label for='check' class='button'><i class="fas fa-bars"></i></label>
+            </div>
+
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Cards</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i> Card is a small flexible container
+                with wide variety of content.
+            </p>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>Cards can be used on team pages ,
+                product landing site and many more.
+            </p>
+            <div class="custom-para">
+                <p class="custom-txt"> All Content of the cards can be altered completely. You can add/remove images ,
+                    buttons , links etc. </p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">Text can be easily aligned in cards with the text utilities. To know more about
+                    text utiliy click <a href="doc-txt.html"><b class="class">here</b></a>.</p>
+            </div>
+            <div class="custom-para">
+                <p class="custom-txt">In the card given below is 100% editable..you can remove the social icon links and
+                    add
+                    text or any other components,you can alter the color theme as well.</p>
+            </div>
+            <h2 class="sub-head">Static card</h2>
+            <div class="sample cen">
+                <div class="stat-card">
+                    <div class="img-container">
+                        <img src="img/avatar.png" class="card-img">
+                    </div>
+                    <div class="top-text">
+                        <div class="card-name">
+                            Json Lea</div>
+                        <p class="card-sub-head">
+                            Web Developer</p>
+                    </div>
+                    <div class="stat-bottom-text">
+                        <div class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto
+                            adipisci
+                            reprehenderit quasi cum perspiciatis, minima reiciendis magni quam!</div>
+
+                        <button type="button" class="btn-green btn-brd">Button</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal top-shift" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="stat">
+                <code>
+                    <p class="snip-code"> &lt;div class=<b class="class">"stat-card"</b>&gt;</p>
+                    <p class="snip-code code-al">&lt;div class=<b class="class">"img-container"</b>&gt;</p>
+                    <p class="snip-code code-al1"> &lt;img src="..." class=<b class="class">"card-img"</b>&gt;</p>
+                    <p class="snip-code code-al"> &lt;/div&gt;</p>
+                    <p class="snip-code code-al">&lt;div class=<b class="class">"top-text"</b>&gt;</p>
+                    <p class="snip-code code-al1"> &lt;div class=<b class="class">"card-name"</b>&gt;</p>
+                    <p class="snip-code code-al1"> Json Lea&lt;/div&gt;</p>
+                    <p class="snip-code code-al1"> &lt;p class <b class="class">="card-sub-head"</b>&gt;</p>
+                    <p class="snip-code code-al1"> Web Developer&lt;/p&gt;</p>
+                    <p class="snip-code code-al"> &lt;/div&gt;</p>
+                    <p class="snip-code code-al"> &lt;div class=<b class="class">"stat-bottom-text"</b>&gt;</p>
+                    <p class="snip-code code-al1"> &lt;div class=<b class="class">"card-text"</b>&gt;</p>
+                    <p class="snip-code code-al1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto
+                        adipisci
+                        reprehenderit quasi cum perspiciatis, minima reiciendis magni quam!&lt;/div&gt;</p>
+    
+                    <p class="snip-code code-al1"> &lt;button type="button" class=<b class="class">"btn-green
+                        btn-brd"</b>&gt;Button&lt;/button&gt;</p>
+                    <p class="snip-code code-al">&lt;/div&gt;</p>
+                    <p class="snip-code"> &lt;/div&gt;</p>
+                </code>
+            </div>
+
+            <div class="main-hr">
+                <hr />
+            </div>
+
+            <h2 class="sub-head">Hover card</h2>
+            <div class="sample cen">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/avatar.png" class="card-img">
+                    </div>
+                    <div class="top-text">
+                        <div class="card-name">
+                            Json Lea</div>
+                        <p class="card-sub-head">
+                            Web Developer</p>
+                    </div>
+                    <div class="bottom-text">
+                        <div class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto
+                            adipisci
+                            reprehenderit quasi cum perspiciatis, minima reiciendis magni quam!</div>
+
+                        <button type="button" class="btn-green btn-brd">Button</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal top-shift" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+
+            <div class="snip" id="hov">
+                <code>
+                <p class="snip-code"> &lt;div class=<b class="class">"card"</b>&gt;</p>
+                <p class="snip-code code-al">&lt;div class=<b class="class">"img-container"</b>&gt;</p>
+                <p class="snip-code code-al1"> &lt;img src="..." class=<b class="class">"card-img"</b>&gt;</p>
+                <p class="snip-code code-al"> &lt;/div&gt;</p>
+                <p class="snip-code code-al">&lt;div class=<b class="class">"top-text"</b>&gt;</p>
+                <p class="snip-code code-al1"> &lt;div class=<b class="class">"card-name"</b>&gt;</p>
+                <p class="snip-code code-al1"> Json Lea&lt;/div&gt;</p>
+                <p class="snip-code code-al1"> &lt;p class <b class="class">="card-sub-head"</b>&gt;</p>
+                <p class="snip-code code-al1"> Web Developer&lt;/p&gt;</p>
+                <p class="snip-code code-al"> &lt;/div&gt;</p>
+                <p class="snip-code code-al"> &lt;div class=<b class="class">"bottom-text"</b>&gt;</p>
+                <p class="snip-code code-al"> &lt;div class=<b class="class">"card-text"</b>&gt;</p>
+                <p class="snip-code code-al1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto
+                    adipisci
+                    reprehenderit quasi cum perspiciatis, minima reiciendis magni quam!&lt;/div&gt;</p>
+
+                <p class="snip-code code-al"> &lt;button type="button" class=<b class="class">"btn-green
+                    btn-brd"</b>&gt;Button&lt;/button&gt;</p>
+                <p class="snip-code code-al">&lt;/div&gt;</p>
+                <p class="snip-code"> &lt;/div&gt;</p>
+            </code>
+            </div>
+            <div class="main-hr">
+                <hr />
+            </div>
+            <h2 class="sub-head">Flip card</h2>
+            <br />
+            <br />
+            <div class="sample " style="margin:0 auto;">
+                <div class=flip-card-container>
+                    <div class="flip-card front-face">
+                        <img src="img/avatar.png">
+                    </div>
+                    <div class=" flip-card back-face ">
+                        <img src="img/avatar.png ">
+                        <div class="flip-card-info ">
+                            <div class="flip-card-title ">
+                                Scartch!
+                            </div>
+                            <p>
+                                User interface designer and <br>front-end developer</p>
+                        </div>
+                        <ul>
+                            <a href="# "><i class="fab fa-facebook-f "></i></a>
+                            <a href="# "><i class="fab fa-twitter "></i></a>
+                            <a href="# "><i class="fab fa-instagram "></i></a>
+                            <a href="# "><i class="fab fa-youtube "></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="align-show-btn">
+                <button class="reveal " onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="flip-cd">
+                <code>
+                        <p class="snip-code">&lt;div class=flip-card-container&gt;</p>
+                        <p class="snip-code code-al">&lt;div class=&quot;flip-card front-face&quot;&gt;</p>
+                        <p class="snip-code code-al1">&lt;img src=&quot;img/avatar.png&quot;&gt;</p>
+                        <p class="snip-code code-al">&lt;/div&gt;</p>
+                        <p class="snip-code code-al">&lt;div class=&quot; flip-card back-face &quot;&gt;</p>
+                        <p class="snip-code code-al1">&lt;img src=&quot;img/avatar.png &quot;&gt;</p>
+                        <p class="snip-code code-al1">&lt;div class=&quot;flip-card-info &quot;&gt;</p>
+                        <p class="snip-code code-al2">&lt;div class=&quot;flip-card-title &quot;&gt;</p>
+                        <p class="snip-code code-al3">Scartch!</p>
+                        <p class="snip-code code-al1">&lt;/div&gt;</p>
+                        <p class="snip-code code-al1">&lt;p&gt;</p>
+                        <p class="snip-code code-al2">User interface designer and &lt;br&gt;front-end developer&lt;/p&gt;</p>
+                        <p class="snip-code code-al">&lt;/div&gt;</p>
+                        <p class="snip-code code-al">&lt;ul&gt;</p>
+                                <p class="snip-code code-al2">&lt;a href=&quot;# &quot;&gt;&lt;i class=&quot;fab fa-facebook-f &quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                        <p class="snip-code code-al2">    &lt;a href=&quot;# &quot;&gt;&lt;i class=&quot;fab fa-twitter &quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                <p class="snip-code code-al2"> &lt;a href=&quot;# &quot;&gt;&lt;i class=&quot;fab fa-instagram &quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                        <p class="snip-code code-al2">&lt;a href=&quot;# &quot;&gt;&lt;i class=&quot;fab fa-youtube &quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                                <p class="snip-code code-al1">&lt;/ul&gt;
+                                                                        <p class="snip-code code-al"> &lt;/div&gt;
+                                                                                <p class="snip-code">&lt;/div&gt;
+                </code>
+            </div>
+
+        </div>
+
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+        </div>
+        <div class="btm-nav" id="nv">
+
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+
+    </body>
+
+    <script src="preloader.js"></script>
+    <script src="btm-nav-anim.js"></script>
+    <script src="card.js"></script>
+
+</html>
