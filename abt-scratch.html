@@ -6,11 +6,9 @@
     <head>
         <meta charset="utf-8">
         <title>Scratch</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="abt-scratch.css">
-
-
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&display=swap" rel="stylesheet">
@@ -29,7 +27,7 @@
             <img src="img/cloud.png" alt="cloud1" class="cloud3">
         </div>
         <div id="main-top" style="position:fixed;top:0px;"></div>
-        <nav data-aos="fade-down" data-aos-delay="200">
+        <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
@@ -41,22 +39,23 @@
             <ul class="side-nav">
                 <label for="check" class="exit">X</label>
                 <div class="align-links">
-                    <li><a href="index.html"> <i class="fas fa-home btm-nav-icon"></i>
-                            Home</a></li>
+                    <li><a class="active" href="#"> <i class="fas fa-home btm-nav-icon"></i> Home</a></li>
                     <li><a href="doc-btn.html"> <i class="fas fa-file-alt btm-nav-icon"> </i> Documentation</a></li>
 
                     <li><a href="about.html"> <i class="fas fa-user-friends btm-nav-icon"></i> About Us</a></li>
                     <li><a href="https://github.com/RuntimeTerror10/Scratch"><i class="fab fa-github ico-size"></i></a>
-                    </li>
 
                 </div>
             </ul>
         </nav>
+
+
         <div class="content">
             <h1 data-aos="fade-in" data-aos-delay="100" class="present">Presenting...</h1>
             <h1 data-aos="fade-right" data-aos-delay="400" class="quote">A small CSS framework for your website.</h1>
+
         </div>
-        <div class="divv skew1" data-aos="fade-up">
+        <div data-aos="fade-up">
             <div data-aos="fade-up" data-aos-delay="600">
                 <div class="pad">
                     <h1 class="about-sc"><span><img src="img/logo-new.png" alt="scratch logo" class="im"></span> Scratch
@@ -82,6 +81,7 @@
 
 
         </div>
+
         <div class="cont">
             <h1 class="sc-cont" data-aos="fade-up" data-aos-delay="100">What's in Scratch??</h1>
             <h2 class="sc-cont-list" data-aos="fade-up" data-aos-delay="150"> Scratch provides you some selected number
@@ -120,10 +120,12 @@
 
     <script src="scroll.js"></script>
     <script src="preloader.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+
 
 
 </html>
