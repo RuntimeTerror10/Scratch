@@ -180,7 +180,7 @@
     }
     nav ul li{
       display: block;
-      margin: 40px 0;
+      margin: 35px 0;
       line-height: 30px;
     }
     nav ul li a{
@@ -273,6 +273,9 @@
     border-radius: 20px;
     width:100%;
   
+}
+.ico-size{
+  font-size:2rem;
 }
 .social-links{
     margin-bottom:20px ;

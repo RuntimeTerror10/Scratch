@@ -6,6 +6,7 @@
         <title>About Us | Scratch</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&display=swap" rel="stylesheet">
@@ -37,13 +38,15 @@
                     <li><a href="index.html"> <i class="fas fa-home  "></i> Home</a></li>
                     <li><a href="doc-btn.html"> <i class="fas fa-file-alt  "> </i> Documentation</a></li>
                     <li><a class="active" href="about.html"> <i class="fas fa-user-friends"></i> About Us</a></li>
+                    <li><a href="https://github.com/RuntimeTerror10/Scratch"><i class="fab fa-github ico-size"></i></a>
+
                 </div>
             </ul>
         </nav>
         <div class="content">
             <h1><i class="fas fa-fire"></i> Our Team <i class="fas fa-fire"></i></h1>
             <div class="team-member">
-                <div class="member ">
+                <div class="member " data-aos="fade-right" data-aos-delay="200">
                     <div class="mem-img">
                         <img src="img/BHARDWAJ.png" alt="parth bhardwaj">
                     </div>
@@ -74,7 +77,7 @@
                     </p>
 
                 </div>
-                <div class="member  res-pos" style="margin-left:50px">
+                <div class="member  res-pos" style="margin-left:50px" data-aos="fade-right" data-aos-delay="400">
                     <div class="mem-img">
                         <img src="img/wadhwani.jpeg" alt="parth wadhwani">
                     </div>
@@ -120,5 +123,9 @@
     </body>
     <script src="scroll.js"></script>
     <script src="preloader.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </html>
