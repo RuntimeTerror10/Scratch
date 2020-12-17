@@ -86,11 +86,9 @@
 }
   body{
  
-    background-image: linear-gradient(
-      rgba(13, 4, 66, 1), 
-      rgba(11, 56, 139, 1)
-      
-    );
+   background: linear-gradient(-45deg, #2a1bff, #34aed3, #2c7af0, #2a1bff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     background-repeat:no-repeat;
 
     background-position:center;
