@@ -108,7 +108,7 @@
     z-index:100;
   }
   nav.active{
-    background: rgba(29, 26, 48, 0.85);
+    background: #000000a8;
     transition: all 0.1s;
     z-index:100;
   }

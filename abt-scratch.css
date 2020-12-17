@@ -130,7 +130,7 @@
     position: fixed;
     top:0;
     transition: all 0.25s;
-    background: #000000;
+    background: #000000a8;
     z-index: 100;
   }
   .logo{
