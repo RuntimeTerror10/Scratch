@@ -12,7 +12,6 @@
     width:99%;
     margin-left:auto;
     margin-right:auto;
-    background-color:rgb(253, 250, 250) ;
     padding:25px;
     border-radius: 10px;
    
@@ -36,7 +35,7 @@
 }
 .jumbo-btn{
     font-family: 'Open Sans',sans-serif;
-    color:black;
+    
     font-size:1rem;
     width:90px;
     height: 2.7rem;
@@ -80,54 +79,6 @@
     font-weight: 200;
 }
 
-.txt-blue{
-    color:#008cff;
-}
-.txt-green{
-    color: #23c214;
-}
-.txt-yellow{
-    color: #eed707;
-}
-.txt-red{
-    color: #f53518;
-}
-.txt-dark{
-    color: #242222;
-}
-.txt-bright{
-    color:white;
-}
-.bg-dark{
-      background-color: #242222;
-}
-.txt-violet{
-    color: violet;
-}
-.txt-orange{
-    color: orangered;
-}
-.bg-blue{
-    background-color: #008cff;
-}
-.bg-green{
-    background-color: #23c214;
-}
-.bg-yellow{
-    background-color: #eed707;
-}
-.bg-bright{
-    background-color: #fff;
-}
-.bg-violet{
-    background-color: violet;
-}
-.bg-orange{
-    background-color: orangered;
-}
-.bg-red{
-    background-color: #f53518;
-}
 .btn-blue{
     font-family: signika;
     color:white;
@@ -597,8 +548,7 @@
     height: 2.3rem;
 }
 .badge{
-    background-color:black;
-    color:white;
+    
     padding:3px 10px;
     border-radius:5px;
 
@@ -726,14 +676,14 @@
    height: 600px;
    max-width: 350px;
    margin: 20px 20px;
-   background: white;
+  
    transition: 0.4s;
    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .stat-bottom-text {
    padding: 0 20px 10px 20px;
    margin-top: 5px;
-   background: white;
+  
    
    transition: 0.1s;
 }
@@ -745,7 +695,7 @@
 .card-name {
     font-size: 25px;
     font-weight: 600;
-    color: #202020;
+    
     padding:3px;
 }
 .card-sub-head{
@@ -762,6 +712,7 @@
 }
 .card-text {
     text-align: justify;
+    margin-bottom:10px;
 }
 .card {
     border-radius:15px;
@@ -769,7 +720,7 @@
     height: 280px;
     max-width: 350px;
     margin: 20px 20px;
-    background: white;
+    
     transition: 0.4s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -787,7 +738,7 @@
 .card .bottom-text {
     padding: 0 20px 10px 20px;
     margin-top: 5px;
-    background: white;
+  
     opacity: 0;
     visibility: hidden;
     transition: 0.1s;
@@ -813,7 +764,7 @@
     height: 100%;
     width: 100%;
     padding: 5px;
-    background: #fff;
+    
     border-radius: 10px;
     transform: translateY(0deg);
     transform-style: preserve-3d;
@@ -848,9 +799,8 @@
 .flip-card-container .back-face img {
     height: 150px;
     width: 150px;
-    padding: 5px;
     border-radius: 50%;
-    background: black;
+   
 }
 
 .flip-card-container .back-face .flip-card-info {
@@ -864,20 +814,22 @@
 
 .back-face ul {
     display: flex;
+    justify-content: center;
+    margin-right:20px;
 }
 
 .back-face ul a {
     display: block;
     height: 40px;
     width: 40px;
-    color: #fff;
+    
     text-align: center;
     margin: 0 5px;
     line-height: 38px;
     border: 2px solid transparent;
     border-radius: 50%;
     transition: all 0.5s ease;
-    background:black;
+    
 }
 
 .back-face ul a:hover {
@@ -889,7 +841,7 @@
  
     max-width: 380px;
     min-width:200px;
-    background: #fff;
+  
     border-radius: 15px;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
@@ -1032,7 +984,7 @@ form .signup-link a:hover {
     text-align: center;
     font-size: 35px;
     font-weight: 600;
-    color:#9f01ea;
+    
    
     
 }
@@ -2009,6 +1961,54 @@ form .form-row .textarea {
     padding:5rem;
 }
 
+.txt-blue{
+    color:#008cff;
+}
+.txt-green{
+    color: #23c214;
+}
+.txt-yellow{
+    color: #eed707;
+}
+.txt-red{
+    color: #f53518;
+}
+.txt-dark{
+    color: #242222;
+}
+.txt-bright{
+    color:white;
+}
+.bg-dark{
+      background-color: #242222;
+}
+.txt-violet{
+    color: violet;
+}
+.txt-orange{
+    color: orangered;
+}
+.bg-blue{
+    background-color: #008cff ;
+}
+.bg-green{
+    background-color: #23c214 ;
+}
+.bg-yellow{
+    background-color: #eed707 ;
+}
+.bg-bright{
+    background-color: #fff ;
+}
+.bg-violet{
+    background-color: violet ;
+}
+.bg-orange{
+    background-color: orangered ;
+}
+.bg-red{
+    background-color: #f53518   ;
+}
 
 
   
