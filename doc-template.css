@@ -362,12 +362,21 @@ a {
   width: 100%;
   margin: 60px 5px;
   display: none;
+  max-width:800px;
+  background: #2f3741f3;
+  border-radius: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  
+
 }
+
 .snip-code {
   padding: 5px 20px;
   font-size: 1rem;
   font-weight: bold;
   text-align: left;
+  color:rgb(253, 229, 15);
 }
 .alig {
   margin-top: 50px;
@@ -469,7 +478,7 @@ a {
   font-size: 1.19rem;
 }
 .class {
-  color: red;
+  color:rgb(255, 66, 66);
 }
 @media (max-width: 426px) {
   .abt-head {

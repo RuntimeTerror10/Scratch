@@ -96,11 +96,16 @@
   display: none;
   margin-top:100px;
   margin-bottom: 50px;
+  background: #2f3741f3;
+  padding-top:10px;
+  padding-bottom:10px;
+
 }
 .snip-code1{
   padding:5px 20px;
   font-size: 1rem;
   font-weight: bold;
+  color:rgb(253, 229, 15);
   
 }
 .sub-code{
