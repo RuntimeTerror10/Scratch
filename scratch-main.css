@@ -78,18 +78,19 @@
 .font-weight-light{
     font-weight: 200;
 }
-
+.button{
+font-family: signika;
+font-size:1.1rem;
+width:90px;
+height: 2.7rem;
+border-radius: 10px;
+cursor: pointer;
+}
 .btn-blue{
-    font-family: signika;
-    color:white;
-    font-size:1.1rem;
+ 
     background-color:#008cff;
     border:3px solid #008cff;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
 }
     .btn-blue:hover{
     background-color:#067cdd;
@@ -97,16 +98,10 @@
     transition:0.25s ease;
 }
     .btn-green{
-    font-family: signika;
-    color:white;
-    font-size:1.1rem;
+    
     background-color:#23c214;
     border:3px solid #23c214;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
 }
     .btn-green:hover{
     background-color:#189e0c ;
@@ -114,45 +109,21 @@
     transition:0.25s ease;
 }
     .btn-yellow{
-    font-family: signika;
-    color:black;
-    font-size:1.1rem;
+    
     background-color:#eed707;
     border:3px solid #eed707;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
 }
     .btn-yellow:hover{
     background-color:#d8c412 ;
     border:3px solid #d8c412;
     transition:0.25s ease;
 }
-    .btn-yellow{
-    font-family: signika;
-    color:black;
-    font-size:1.1rem;
-    background-color:#eed707;
-    border:3px solid #eed707;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
-}
-    .btn-red{
-    font-family: signika;
-    color:white;
-    font-size:1.1rem;
+.btn-red{
+    
     background-color:#f53518;
     border:3px solid #f53518;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
 }
     .btn-red:hover{
     background-color:#da2c11 ;
@@ -160,16 +131,10 @@
     transition:0.25s ease;
 }
     .btn-bright{
-    font-family: signika;
-    color:black;
-    font-size:1.1rem;
+   
     background-color:#fffcfc;
     border:3px solid #fffcfc;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
 }
     .btn-bright:hover{
     background-color:#e4dddb;
@@ -177,14 +142,7 @@
     transition:0.25s ease;
 }
     .btn-dark{
-    font-family: signika;
-    color:white;
-    font-size:1.1rem;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
     background-color:#242222;
     border:3px solid #242222;
     
@@ -195,16 +153,10 @@
     transition:0.25s ease;
 }
 .btn-blue-out{
-    font-family: signika;
-    color:#008cff;
-    font-size:1.1rem;
+   
     background:none;
     border:3px solid #008cff;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
     }
     .btn-blue-out:hover{
     background-color:#067cdd;
@@ -213,16 +165,10 @@
     color:white;
     }
     .btn-green-out{
-    font-family: signika;
-    color:#23c214;
-    font-size:1.1rem;
+    
     background:none;
     border:3px solid #23c214;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     }
     .btn-green-out:hover{
     background-color:#189e0c ;
@@ -231,16 +177,10 @@
     color:white;
     }
     .btn-yellow-out{
-    font-family: signika;
-    color:#eed707;
-    font-size:1.1rem;
+
     background:none;
     border:3px solid #eed707;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
     }
     .btn-yellow-out:hover{
     background-color:#d8c412 ;
@@ -250,16 +190,10 @@
     }
     
     .btn-red-out{
-    font-family: signika;
-    color:#f53518;
-    font-size:1.1rem;
+    
     background:none;
     border:3px solid #f53518;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     }
     .btn-red-out:hover{
     background-color:#da2c11 ;
@@ -268,16 +202,10 @@
     color:white;
     }
     .btn-bright-out{
-    font-family: signika;
-    color:white;
-    font-size:1.1rem;
+   
     background:none;
     border:3px solid #fffcfc;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     }
     .btn-bright-out:hover{
     background-color:aliceblue;
@@ -286,16 +214,10 @@
     color:black
     }
     .btn-violet-out{
-    font-family: signika;
-    color:violet;
-    font-size:1.1rem;
+    
     background:none;
     border:3px solid violet;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     
 }
 .btn-violet-out:hover{
@@ -305,16 +227,12 @@
     color:white;
 }
 .btn-blue-inv{
-    font-family: signika;
+   
     color:aliceblue;
-    font-size:1.1rem;
+   
     background:none;
     border:3px solid aliceblue;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     }
     .btn-blue-inv:hover{
     border:3px solid #067cdd;
@@ -322,16 +240,10 @@
     color:#067cdd;
     }
     .btn-green-inv{
-    font-family: signika;
     color:aliceblue;
-    font-size:1.1rem;
     background:none;
     border:3px solid aliceblue;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     }
     .btn-green-inv:hover{
     
@@ -340,16 +252,10 @@
     color:#189e0c;
     }
     .btn-yellow-inv{
-    font-family: signika;
     color:aliceblue;
-    font-size:1.1rem;
     background:none;
     border:3px solid aliceblue;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
     }
     .btn-yellow-inv:hover{
     
@@ -359,16 +265,10 @@
     }
     
     .btn-red-inv{
-    font-family: signika;
     color:aliceblue;
-    font-size:1.1rem;
     background:none;
     border:3px solid aliceblue;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+    
     }
     .btn-red-inv:hover{
     
@@ -377,16 +277,9 @@
     color:#da2c11;
     }
     .btn-bright-inv{
-    font-family: signika;
     color:grey;
-    font-size:1.1rem;
     background:none;
     border:3px solid grey;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
     }
     .btn-bright-inv:hover{
     
@@ -395,16 +288,9 @@
     color:white;
     }
     .btn-violet-inv{
-    font-family: signika;
     color:aliceblue;
-    font-size:1.1rem;
     background:none;
     border:3px solid aliceblue;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
     
     }
     .btn-violet-inv:hover{
@@ -413,16 +299,9 @@
     color:violet;
     }
     .btn-blue-neon{
-        font-family: signika;
-        color:white;
-        font-size:1.1rem;
         background-color:#008cff;
         border:3px solid #008cff;
-        width:90px;
-        height: 2.7rem;
-        border-radius: 10px;
-        cursor: pointer;
-        outline:none;
+       
         }
         .btn-blue-neon:hover{
         box-shadow: 0 0 5px #067cdd, 0 0 25px #067cdd, 0 0 50px #067cdd, 0 0 200px #067cdd;
@@ -431,16 +310,9 @@
         transition:0.25s ease;
         }
         .btn-green-neon{
-        font-family: signika;
-        color:white;
-        font-size:1.1rem;
         background-color:#23c214;
         border:3px solid #23c214;
-        width:90px;
-        height: 2.7rem;
-        border-radius: 10px;
-        cursor: pointer;
-        outline:none;
+       
         }
         .btn-green-neon:hover{
         box-shadow: 0 0 5px #189e0c, 0 0 25px #189e0c, 0 0 50px #189e0c, 0 0 200px #189e0c;
@@ -449,16 +321,10 @@
         transition:0.25s ease;
         }
         .btn-yellow-neon{
-        font-family: signika;
-        color:black;
-        font-size:1.1rem;
+       
         background-color:#eed707;
         border:3px solid #eed707;
-        width:90px;
-        height: 2.7rem;
-        border-radius: 10px;
-        cursor: pointer;
-        outline:none;
+       
         }
         .btn-yellow-neon:hover{
         box-shadow: 0 0 5px #d8c412, 0 0 25px #d8c412, 0 0 50px #d8c412, 0 0 200px #d8c412;
@@ -467,28 +333,16 @@
         transition:0.25s ease;
         }
         .btn-yellow-neon{
-        font-family: signika;
-        color:black;
-        font-size:1.1rem;
+        
         background-color:#eed707;
         border:3px solid #eed707;
-        width:90px;
-        height: 2.7rem;
-        border-radius: 10px;
-        cursor: pointer;
-        outline:none;
+       
         }
         .btn-red-neon{
-        font-family: signika;
-        color:white;
-        font-size:1.1rem;
+       
         background-color:#f53518;
         border:3px solid #f53518;
-        width:90px;
-        height: 2.7rem;
-        border-radius: 10px;
-        cursor: pointer;
-        outline:none;
+       
         }
         .btn-red-neon:hover{
         box-shadow: 0 0 5px #da2c11, 0 0 25px #da2c11, 0 0 50px #da2c11, 0 0 200px #da2c11;
@@ -498,16 +352,10 @@
         transition:0.25s ease;
         }
         .btn-bright-neon{
-        font-family: signika;
-        color:black;
-        font-size:1.1rem;
+       
         background-color:#fffcfc;
         border:3px solid #fffcfc;
-        width:90px;
-        height: 2.7rem;
-        border-radius: 10px;
-        cursor: pointer;
-        outline:none;
+       
         }
         .btn-bright-neon:hover{
         box-shadow: 0 0 5px #e4dddb, 0 0 25px #e4dddb, 0 0 50px #e4dddb, 0 0 200px #e4dddb;
@@ -517,16 +365,10 @@
         transition:0.25s ease;
 }
 .btn-violet-neon{
-    font-family: signika;
-    color:white;
-    font-size:1.1rem;
+    
     background-color:violet;
     border:3px solid violet;
-    width:90px;
-    height: 2.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-    outline:none;
+   
 }
 .btn-violet-neon:hover{
     box-shadow: 0 0 5px rgb(216, 91, 216), 0 0 25px rgb(216, 91, 216), 0 0 50px rgb(216, 91, 216), 0 0 200px rgb(216, 91, 216);
