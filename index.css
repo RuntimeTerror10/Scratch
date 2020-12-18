@@ -240,6 +240,10 @@
     transition: all 0.25s;
     z-index: 100;
   }
+  .learn{
+    display: flex;
+    justify-content: center;
+  }
   nav.active{
     height: 80px;
     width: 100%;
@@ -398,7 +402,7 @@
   
   @media(max-width:463px){
     
-    .content button {
+    .content .link {
       margin-top:25px;
       margin-left: 10px;
       background: none;
@@ -445,7 +449,7 @@
   @media(max-width:378px){
    
       
-    .content button {
+    .content .link {
       margin-top:25px;
       margin-left: 10px;
       background: none;
@@ -481,7 +485,10 @@
     text-align: center;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
-button {
+.alig{
+  display:inline-block;
+}
+.link {
   margin-top:25px;
   margin-left: 10px;
   background: none;
@@ -497,7 +504,7 @@ button {
   
 }
 
-button:hover {
+.link:hover {
   background: aliceblue;
   color: #000;
   transition: 0.3s ease-in;
