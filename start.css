@@ -440,7 +440,8 @@
     padding: 0;
     font-weight: 600;
     font-size: 20px;
-    color: #777;
+    color:black;
+    font-family:eczar;
 }
 
 .card .details h3 a {
