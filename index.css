@@ -243,6 +243,7 @@
   .learn{
     display: flex;
     justify-content: center;
+    
   }
   @media(max-width:394px){
    
@@ -319,14 +320,8 @@
     background-color: white;
     padding-bottom:50px;
   }
-  @media screen and (max-width:609px){
-    .about-scratch{
-      margin-top: 300px;
-      background-color: white;
-      padding-bottom:50px;
-    }
-  }
-  @media screen and (max-width:394px){
+  
+  @media(max-width:394px){
     .about-scratch{
       margin-top: 350px;
       background-color: white;
@@ -334,9 +329,11 @@
     }
   }
   .abt-scratch{
+    font-size:1rem;
     margin-left:auto;
     margin-right:auto;
     display: block;  
+
     
   }
   
@@ -476,11 +473,11 @@
       
     }
     .abt-scratch{
-        width:100%;
-      
+        width:100%;      
         margin-left:auto;
         margin-right:auto;
         display: block;  
+       font-size: 10rem;
       
     }
   }
@@ -497,7 +494,7 @@
   margin-top:25px;
   margin-left: 10px;
   background: none;
-  padding: 1px 5px;
+  padding: 5px 10px;
   font-size: 35px;
   font-weight: bold;
   color:white;
