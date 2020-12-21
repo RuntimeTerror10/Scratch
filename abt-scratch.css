@@ -296,13 +296,13 @@
     font-family:Eczar;
     color:rgb(206, 206, 206);
     font-size:2.2rem;
-    padding-left:10px;
+    padding-left:30px;
   }
   .about-sc{
     font-family:Eczar;
     color:rgb(206, 206, 206);
     font-size:2.2rem;
-    padding-left:10px;
+    padding-left:30px;
     color:rgb(16, 16, 59)
   }
   .about-sc-lg{
@@ -418,7 +418,7 @@
   flex-direction: column;
   justify-content: center;
   width:250px;
-  background: rgb(161, 165, 211);
+  background: rgba(255, 255, 255, 0.507);
   font-family:eczar;
   text-align: center;
   border-radius:12px;
