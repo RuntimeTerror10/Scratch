@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #c7cee6;
+  background-color: #e0e3ef;
 }
 .preloader {
   position: fixed;
@@ -63,7 +63,8 @@ body {
   color: #fff;
 }
 .current {
-  color: #07a183;
+  color: #e6e22f;
+
 }
 .airplane {
   height: 200px;
@@ -110,11 +111,7 @@ nav {
   margin-top: 5px;
 }
 a {
-  color: white;
-
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  color: white;  
 }
 .leftbar {
   position: fixed;
@@ -141,7 +138,7 @@ a {
   padding: 1.1rem;
 }
 
-.button {
+.sidebar-button {
   float: right;
   cursor: pointer;
   font-weight: 800;
@@ -198,10 +195,7 @@ a {
   padding-top: 10px;
 }
 .comp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  padding-left:45px ;
 }
 .comp-list {
   margin-top: 10px;
@@ -235,18 +229,18 @@ padding-right:40px;
 .btm-nav {
   position: fixed;
   bottom: -60px;
-  width: 90%;
+  width: 95%;
   height: 80px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   background-color: #242d61;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow-x: auto;
   z-index: 1;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   transition: 0.25s ease-in-out;
   box-shadow: 7px 7px 10px rgb(58, 57, 57);
 }
@@ -264,8 +258,8 @@ padding-right:40px;
   bottom: 20px;
   padding: 10px 60px;
   background-color: #242d61;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   transition: 0.25s ease-in-out;
   cursor: pointer;
   box-shadow: 7px 7px 10px rgb(58, 57, 57);
@@ -322,12 +316,14 @@ padding-right:40px;
 }
 
 .btm-nav-link {
-  padding-top: 40px;
+ padding:0 10px;
+  padding-top: 25px;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
+  min-width: 40px;
   padding-bottom: 30px;
   overflow: hidden;
   font-family: Fredoka One;
@@ -339,7 +335,7 @@ padding-right:40px;
 }
 
 .btm-nav-link-active {
-  color: #009578;
+  color: #e6e22f;
 }
 
 .btm-nav-icon {
@@ -363,7 +359,7 @@ padding-right:40px;
   margin-top: 15px;
   margin-right: 5px;
   font-size: 1.1rem;
-  background-color: #c7cee6;
+  background-color: #e0e3ef;
 
   width: 230px;
   height: 2.7rem;
@@ -423,7 +419,7 @@ padding-right:40px;
     color: black;
     float: left;
     font-size: 1.1rem;
-    background-color: #c7cee6;
+    background-color: #e0e3ef;
 
     width: 195px;
     height: 2.7rem;
@@ -502,6 +498,7 @@ padding-right:40px;
   background: rgb(233, 230, 207);
   padding:4px;
   font-weight: 700;
+  margin:0 6px;
 }
 .class{
   color:rgb(255, 66, 66);
