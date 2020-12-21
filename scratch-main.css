@@ -89,107 +89,100 @@ cursor: pointer;
  
     background-color:#008cff;
     border:3px solid #008cff;
-    
+    transition:0.25s ease;
 }
     .button-blue:hover{
     background-color:#067cdd;
     border:3px solid #067cdd;
-    transition:0.25s ease;
+    
 }
     .button-green{
     
     background-color:#23c214;
     border:3px solid #23c214;
-    
+    transition:0.25s ease;
 }
     .button-green:hover{
     background-color:#189e0c ;
     border:3px solid #189e0c;
-    transition:0.25s ease;
 }
     .button-yellow{
     
     background-color:#eed707;
     border:3px solid #eed707;
-    
+    transition:0.25s ease;
 }
     .button-yellow:hover{
     background-color:#d8c412 ;
     border:3px solid #d8c412;
-    transition:0.25s ease;
 }
 .button-red{
     
     background-color:#f53518;
     border:3px solid #f53518;
-    
+    transition:0.25s ease; 
 }
     .button-red:hover{
     background-color:#da2c11 ;
     border:3px solid #da2c11;
-    transition:0.25s ease;
 }
     .button-bright{
    
     background-color:#fffcfc;
     border:3px solid #fffcfc;
-   
+    transition:0.25s ease;
 }
     .button-bright:hover{
     background-color:#e4dddb;
     border:3px solid #e4dddb;
-    transition:0.25s ease;
 }
     .button-dark{
     
     background-color:#242222;
     border:3px solid #242222;
-    
+    transition:0.25s ease;
 }
 .button-dark:hover{
     background-color:#1b1a1a;
     border:3px solid #1b1a1a;
-    transition:0.25s ease;
 }
 .button-blue-out{
    
     background:none;
     border:3px solid #008cff;
-    
+    transition:0.25s ease;
     }
     .button-blue-out:hover{
     background-color:#067cdd;
     border:3px solid #067cdd;
-    transition:0.25s ease;
-    color:white;
-    }
+    
+}
     .button-green-out{
     
     background:none;
     border:3px solid #23c214;
-   
+    transition:0.25s ease;
     }
     .button-green-out:hover{
     background-color:#189e0c ;
     border:3px solid #189e0c;
-    transition:0.25s ease;
     color:white;
     }
     .button-yellow-out{
 
     background:none;
     border:3px solid #eed707;
+    transition:0.25s ease;
     
     }
     .button-yellow-out:hover{
     background-color:#d8c412 ;
     border:3px solid #d8c412;
-    transition:0.25s ease;
     color:black;
     }
     
     .button-red-out{
-    
+        transition:0.25s ease;
     background:none;
     border:3px solid #f53518;
    
@@ -197,11 +190,10 @@ cursor: pointer;
     .button-red-out:hover{
     background-color:#da2c11 ;
     border:3px solid #da2c11;
-    transition:0.25s ease;
     color:white;
     }
     .button-bright-out{
-   
+        transition:0.25s ease;
     background:none;
     border:3px solid #fffcfc;
    
@@ -209,11 +201,10 @@ cursor: pointer;
     .button-bright-out:hover{
     background-color:aliceblue;
     border:3px solid #e4dddb;
-    transition:0.25s ease;
     color:black
     }
     .button-violet-out{
-    
+        transition:0.25s ease;
     background:none;
     border:3px solid violet;
    
@@ -222,44 +213,40 @@ cursor: pointer;
 .button-violet-out:hover{
     background-color:violet;
     border:3px solid violet;
-    transition:0.25s ease;
     color:white;
 }
 .button-blue-inv{
    
     color:aliceblue;
-   
+    transition:0.25s ease;
     background:none;
     border:3px solid aliceblue;
    
     }
     .button-blue-inv:hover{
     border:3px solid #067cdd;
-    transition:0.25s ease;
     color:#067cdd;
     }
     .button-green-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
-   
+    transition:0.25s ease;
     }
     .button-green-inv:hover{
     
     border:3px solid #189e0c;
-    transition:0.25s ease;
     color:#189e0c;
     }
     .button-yellow-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
-   
+    transition:0.25s ease;
     }
     .button-yellow-inv:hover{
     
     border:3px solid #d8c412;
-    transition:0.25s ease;
     color:#d8c412;
     }
     
@@ -267,76 +254,70 @@ cursor: pointer;
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
-    
+    transition:0.25s ease;
     }
     .button-red-inv:hover{
     
     border:3px solid #da2c11;
-    transition:0.25s ease;
     color:#da2c11;
     }
     .button-bright-inv{
     color:grey;
     background:none;
     border:3px solid grey;
+    transition:0.25s ease;
     }
     .button-bright-inv:hover{
     
     border:3px solid white;
-    transition:0.25s ease;
     color:white;
     }
     .button-violet-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
+    transition:0.25s ease;
     
     }
     .button-violet-inv:hover{
     border:3px solid violet;
-    transition:0.25s ease;
     color:violet;
     }
     .button-blue-neon{
         background-color:#008cff;
         border:3px solid #008cff;
+        transition:0.25s ease;
        
         }
         .button-blue-neon:hover{
         box-shadow: 0 0 5px #067cdd, 0 0 25px #067cdd, 0 0 50px #067cdd, 0 0 200px #067cdd;
         background-color:#067cdd;
         border:3px solid #067cdd;
-        transition:0.25s ease;
         }
         .button-green-neon{
         background-color:#23c214;
         border:3px solid #23c214;
+        transition:0.25s ease;
        
         }
         .button-green-neon:hover{
         box-shadow: 0 0 5px #189e0c, 0 0 25px #189e0c, 0 0 50px #189e0c, 0 0 200px #189e0c;
         background-color:#189e0c ;
         border:3px solid #189e0c;
-        transition:0.25s ease;
         }
         .button-yellow-neon{
        
         background-color:#eed707;
         border:3px solid #eed707;
+        transition:0.25s ease;
        
         }
         .button-yellow-neon:hover{
         box-shadow: 0 0 5px #d8c412, 0 0 25px #d8c412, 0 0 50px #d8c412, 0 0 200px #d8c412;
         background-color:#d8c412 ;
         border:3px solid #d8c412;
-        transition:0.25s ease;
         }
-        .button-yellow-neon{
-        
-        background-color:#eed707;
-        border:3px solid #eed707;
-       
-        }
+      
         .button-red-neon{
        
         background-color:#f53518;
@@ -354,6 +335,7 @@ cursor: pointer;
        
         background-color:#fffcfc;
         border:3px solid #fffcfc;
+        transition:0.25s ease;
        
         }
         .button-bright-neon:hover{
@@ -361,12 +343,12 @@ cursor: pointer;
         
         background-color:#e4dddb;
         border:3px solid #e4dddb;
-        transition:0.25s ease;
 }
 .button-violet-neon{
     
     background-color:violet;
     border:3px solid violet;
+    transition:0.25s ease;
    
 }
 .button-violet-neon:hover{
@@ -374,7 +356,6 @@ cursor: pointer;
         
     background-color:rgb(216, 91, 216);
     border:3px solid rgb(216, 91, 216);
-    transition:0.25s ease;
 }
 .button-bread{
     border-radius: 60px;
