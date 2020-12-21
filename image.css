@@ -9,12 +9,7 @@
     width:50%;
 
 }
-.sub-head1 {
-    font-family: Righteous;
-    margin-top: 46px;
-    margin-left: 15px;
-    font-size: 1.5rem;
-  }
+
   .img-grey {
       -webkit-filter:grayscale(100%);
     filter: grayscale(100%);

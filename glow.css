@@ -36,18 +36,3 @@
       text-shadow: 0 0 20px #fff, 0 0 30px var(--glow-final-color), 0 0 40px var(--glow-final-color), 0 0 50px var(--glow-final-color), 0 0 60px var(--glow-final-color), 0 0 70px var(--glow-final-color), 0 0 80px var(--glow-final-color);
     }
   }
-.glow-txt1{
-    color: #fff;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow1 1s ease-in-out infinite alternate;
-  
-  }
-  @-webkit-keyframes glow1 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--glow-initial-color1), 0 0 40px , 0 0 50px var(--glow-initial-color1), 0 0 60px var(--glow-initial-color1), 0 0 70px var(--glow-initial-color1);
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px var(--glow-final-color1), 0 0 40px var(--glow-final-color1), 0 0 50px var(--glow-final-color1), 0 0 60px var(--glow-final-color1), 0 0 70px var(--glow-final-color1), 0 0 80px var(--glow-final-color1);
-    }
-  }

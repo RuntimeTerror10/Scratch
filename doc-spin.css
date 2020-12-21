@@ -28,7 +28,7 @@
 .spinner-blue {
   height: 40px;
   width: 40px;
- 
+ background: none;
   border-radius: 50%;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color:#067cdd;
@@ -44,7 +44,8 @@
 .spinner-green {
   height: 40px;
   width: 40px;
- 
+  background: none;
+
   border-radius: 50%;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color:#23c214;
@@ -61,7 +62,8 @@
 .spinner-red {
   height: 40px;
   width: 40px;
- 
+  background: none;
+
   border-radius: 50%;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color:#f53518;
@@ -78,7 +80,8 @@
 .spinner-yellow {
   height: 40px;
   width: 40px;
- 
+  background: none;
+
   border-radius: 50%;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color:#eed707;
@@ -94,7 +97,8 @@
 .spinner-dark{
   height: 40px;
   width: 40px;
- 
+  background: none;
+
   border-radius: 50%;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color:black;
@@ -111,7 +115,8 @@
 .spinner-orange {
   height: 40px;
   width: 40px;
- 
+  background: none;
+
   border-radius: 50%;
   border: 4px solid rgba(0, 0, 0, 0.2);
   border-top-color:orangered;
@@ -130,7 +135,8 @@
     margin-top:15px;
     margin-right:5px;
     font-size:1.1rem;
-    background-color:#d4d2d2;
+    background-color: #c7cee6;
+
     width: 230px;
     height: 2.7rem;
     border-radius: 10px;
@@ -159,7 +165,8 @@
   .spinner-blue-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#067cdd;
@@ -172,7 +179,8 @@
   .spinner-green-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#23c214;
@@ -185,7 +193,8 @@
   .spinner-red-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#f53518;
@@ -197,7 +206,8 @@
   .spinner-yellow-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#eed707;
@@ -208,7 +218,8 @@
   .spinner-dark-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:black;
@@ -220,7 +231,8 @@
   .spinner-orange-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:orangered;
@@ -237,7 +249,8 @@
     width: 40px;
     background: #067cdd;
     border-radius: 50%;
-    
+    background: none;
+
     opacity: 1;
     animation: spinner4 800ms linear infinite;
     transform: scale(0);
@@ -303,7 +316,8 @@
 .spinner-arc-blue {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid #1D9AF2;
   border-top: 2px solid #fff;
@@ -319,7 +333,8 @@
 .spinner-arc-green {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid #23c214;
   border-top: 2px solid #fff;
@@ -328,7 +343,8 @@
 .spinner-arc-yellow {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid #eed707;
   border-top: 2px solid #fff;
@@ -338,7 +354,8 @@
 .spinner-arc-red {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid #f53518;
   border-top: 2px solid #fff;
@@ -348,7 +365,8 @@
 .spinner-arc-dark {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid black;
   border-top: 2px solid #fff;
@@ -358,7 +376,8 @@
 .spinner-arc-orange {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid orangered;
   border-top: 2px solid #fff;
@@ -367,7 +386,8 @@
 .spinner-arc-violet {
   height: 40px;
   width: 40px;
-  background: white;
+  background: none;
+
   border-radius: 50%;
   border: 5px solid violet;
   border-top: 2px solid #fff;
@@ -450,6 +470,9 @@
 .spinner-sml{
   width:20px;
   height:20px;
+}
+.align-spinner-link{
+  padding-right:20px;
 }
 
 .btn-fix{  /*for spinner*/

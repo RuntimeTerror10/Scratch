@@ -5,6 +5,9 @@
   padding-bottom: 80px;
   
 }
+.space{
+  line-height: 10mm;
+}
 
 .abt-jumbo{
   font-size: 1.5rem;
@@ -13,11 +16,12 @@
   text-align: center;
   font-family: Signika;
 }
+
 .jumbo-head{
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 2.2rem;
-  cursor: text;
+  text-align:left;
+  font-size:2.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 .default-jumbo{
   margin-left:10px;
@@ -75,13 +79,13 @@
   outline:none;
   margin-top:15px;
 }
-.btn-dark{
+.button-dark{
   background-color:#242222;
   border:3px solid #242222;
   color:white;
 }
 
-.btn-dark:hover{
+.button-dark:hover{
   background-color:#1b1a1a;
   border:3px solid #1b1a1a;
   transition:0.25s ease;
@@ -111,7 +115,7 @@
 .sub-code{
   padding-left:40px;
 }
-.btn-lrg{
+.button-large{
   width: 130px;
   height: 3.8rem;
 }
@@ -128,10 +132,10 @@
   margin-left:15px;
   font-size:2rem;
 }
-.txt-center{
+.text-center{
   text-align:center;
 }
-.btn-center{
+.button-center{
     display: block;
     margin-left:auto;
     margin-right:auto;
@@ -153,12 +157,12 @@
 
 }
 
-.btn-bright{
+.button-bright{
     background-color:#fffcfc;
     border:3px solid #fffcfc;
     color:black;
 }
-.btn-bright:hover{
+.button-bright:hover{
     background-color:#e4dddb;
     border:3px solid #e4dddb;
     transition:0.25s ease;
@@ -175,7 +179,7 @@
   background-color:#eed707;
   
 }
-.btn-brd{
+.button-bread{
   border-radius: 60px;
 }
 .back-pink{

@@ -1,20 +1,20 @@
 .cust{
   margin-top:-10px;
 }
-.txt-right{
+.text-right{
     text-align: right;
 }
 
-.txt-center{
+.text-center{
     text-align: center;
 }
-.txt-left{
+.text-left{
     text-align: left;
 }
-.txt-justify{
+.text-justify{
     text-align: justify;
 }
-.txt-decoration-none{
+.text-decoration-none{
     text-decoration: none;
 }
 .font-weight-bolder{

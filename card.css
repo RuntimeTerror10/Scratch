@@ -113,7 +113,7 @@
 
 
 
-.btn-green{
+.button-green{
     margin-top: 20px;
   
     font-family: signika;
@@ -128,12 +128,12 @@
     outline:none;
     transition: 0.25s ease-in-out;
 }
-.btn-green:hover{
+.button-green:hover{
     background-color:#189e0c ;
     border:3px solid #189e0c;
     transition:0.25s ease;
 }
-.btn-brd{
+.button-bread{
         border-radius: 60px;
 }
 .code-al{
@@ -150,11 +150,11 @@ padding-left: 38px;
         }
 
 
-
-::selection {
-    color: #fff;
-    background: #56d8e4;
+.utilities-link{
+    color:rgb(3, 156, 97);
+    text-decoration: underline;
 }
+
 
 .flip-card-container {
     display: block;

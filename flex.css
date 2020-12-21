@@ -1,5 +1,11 @@
-.disp-flex {
+.display-flex {
   display: flex;
+}
+.para-height{
+  line-height: 10mm;
+}
+.dark-background{
+  background:#1d2731;
 }
 .disp-inline-flex {
   display: inline-flex;

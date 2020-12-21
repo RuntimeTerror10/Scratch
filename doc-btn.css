@@ -1,87 +1,82 @@
 .sample button{
 margin-top:20px;
 }
-.btn-blue{
+.button-blue{
 font-family: signika;
 color:white;
 font-size:1.1rem;
-background-color:#008cff;
-border:3px solid #008cff;
+background-color:#0068BD;
+border:3px solid #0068BD;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 }
-.btn-blue:hover{
-background-color:#067cdd;
-border:3px solid #067cdd;
+.button-blue:hover{
+background-color:#024e8b;
+border:3px solid #024e8b;
 transition:0.25s ease;
 }
-.btn-green{
+.button-green{
 font-family: signika;
 color:white;
 font-size:1.1rem;
-background-color:#23c214;
-border:3px solid #23c214;
+background-color:#14790B;
+border:3px solid #14790B;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 }
-.btn-green:hover{
-background-color:#189e0c ;
-border:3px solid #189e0c;
+.button-green:hover{
+background-color:#1d6417 ;
+border:3px solid #1d6417;
 transition:0.25s ease;
 }
-.btn-yellow{
+.button-yellow{
 font-family: signika;
 color:black;
 font-size:1.1rem;
-background-color:#eed707;
-border:3px solid #eed707;
+background-color:#E2C803;
+border:3px solid #E2C803;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 }
-.btn-yellow:hover{
-background-color:#d8c412 ;
-border:3px solid #d8c412;
+.button-yellow:hover{
+background-color:#bdad1c ;
+border:3px solid #bdad1c;
 transition:0.25s ease;
 }
-.btn-yellow{
+.button-yellow{
 font-family: signika;
 color:black;
 font-size:1.1rem;
-background-color:#eed707;
-border:3px solid #eed707;
+background-color:#E2C803;
+border:3px solid #E2C803;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 }
-.btn-red{
+.button-red{
 font-family: signika;
 color:white;
 font-size:1.1rem;
-background-color:#f53518;
-border:3px solid #f53518;
+background-color:#DC2509;
+border:3px solid #DC2509;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 }
-.btn-red:hover{
-background-color:#da2c11 ;
-border:3px solid #da2c11;
+.button-red:hover{
+background-color:#b81e06 ;
+border:3px solid #b81e06;
 transition:0.25s ease;
 }
-.btn-bright{
+.button-bright{
 font-family: signika;
 color:black;
 font-size:1.1rem;
@@ -91,14 +86,13 @@ width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 }
-.btn-bright:hover{
+.button-bright:hover{
 background-color:#e4dddb;
 border:3px solid #e4dddb;
 transition:0.25s ease;
 }
-.btn-dark{
+.button-dark{
 font-family: signika;
 color:white;
 font-size:1.1rem;
@@ -106,12 +100,11 @@ width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
-outline:none;
 background-color:#242222;
 border:3px solid #242222;
 
 }
-.btn-dark:hover{
+.button-dark:hover{
 background-color:#1b1a1a;
 border:3px solid #1b1a1a;
 transition:0.25s ease;
@@ -122,80 +115,80 @@ transition:0.25s ease;
 margin-top:-40px; /* use this for responsive*/
 }
 
-.btn-blue-out{
+.button-blue-out{
 font-family: signika;
-color:#008cff;
+color:#0068BD;
 font-size:1.1rem;
 background:none;
-border:3px solid #008cff;
+border:3px solid #0068BD;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-blue-out:hover{
-background-color:#067cdd;
-border:3px solid #067cdd;
+.button-blue-out:hover{
+background-color:#024e8b;
+border:3px solid #024e8b;
 transition:0.25s ease;
 color:white;
 }
-.btn-green-out{
+.button-green-out{
 font-family: signika;
-color:#23c214;
+color:#14790B;
 font-size:1.1rem;
 background:none;
-border:3px solid #23c214;
+border:3px solid #14790B;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-green-out:hover{
-background-color:#189e0c ;
-border:3px solid #189e0c;
+.button-green-out:hover{
+background-color:#1d6417 ;
+border:3px solid #1d6417;
 transition:0.25s ease;
 color:white;
 }
-.btn-yellow-out{
+.button-yellow-out{
 font-family: signika;
-color:#eed707;
+color:#E2C803;
 font-size:1.1rem;
 background:none;
-border:3px solid #eed707;
+border:3px solid #E2C803;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-yellow-out:hover{
-background-color:#d8c412 ;
-border:3px solid #d8c412;
+.button-yellow-out:hover{
+background-color:#bdad1c ;
+border:3px solid #bdad1c;
 transition:0.25s ease;
 color:black;
 }
 
-.btn-red-out{
+.button-red-out{
 font-family: signika;
-color:#f53518;
+color:#DC2509;
 font-size:1.1rem;
 background:none;
-border:3px solid #f53518;
+border:3px solid #DC2509;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-red-out:hover{
-background-color:#da2c11 ;
-border:3px solid #da2c11;
+.button-red-out:hover{
+background-color:#b81e06 ;
+border:3px solid #b81e06;
 transition:0.25s ease;
 color:white;
 }
-.btn-bright-out{
+.button-bright-out{
 font-family: signika;
 color:white;
 font-size:1.1rem;
@@ -207,13 +200,13 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-bright-out:hover{
+.button-bright-out:hover{
 background-color:aliceblue;
 border:3px solid #e4dddb;
 transition:0.25s ease;
 color:black
 }
-.btn-violet-out{
+.button-violet-out{
 font-family: signika;
 color:violet;
 font-size:1.1rem;
@@ -226,7 +219,7 @@ cursor: pointer;
 outline:none;
 
 }
-.btn-violet-out:hover{
+.button-violet-out:hover{
 background-color:violet;
 border:3px solid violet;
 transition:0.25s ease;
@@ -238,7 +231,7 @@ margin-top:25px;
 .outl{
 margin-top:10px;
 }
-.btn-blue-inv{
+.button-blue-inv{
 font-family: signika;
 color:aliceblue;
 font-size:1.1rem;
@@ -250,12 +243,12 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-blue-inv:hover{
-border:3px solid #067cdd;
+.button-blue-inv:hover{
+border:3px solid #024e8b;
 transition:0.25s ease;
-color:#067cdd;
+color:#024e8b;
 }
-.btn-green-inv{
+.button-green-inv{
 font-family: signika;
 color:aliceblue;
 font-size:1.1rem;
@@ -267,13 +260,13 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-green-inv:hover{
+.button-green-inv:hover{
 
-border:3px solid #189e0c;
+border:3px solid #1d6417;
 transition:0.25s ease;
-color:#189e0c;
+color:#1d6417;
 }
-.btn-yellow-inv{
+.button-yellow-inv{
 font-family: signika;
 color:aliceblue;
 font-size:1.1rem;
@@ -285,14 +278,14 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-yellow-inv:hover{
+.button-yellow-inv:hover{
 
-border:3px solid #d8c412;
+border:3px solid #bdad1c;
 transition:0.25s ease;
-color:#d8c412;
+color:#bdad1c;
 }
 
-.btn-red-inv{
+.button-red-inv{
 font-family: signika;
 color:aliceblue;
 font-size:1.1rem;
@@ -304,13 +297,13 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-red-inv:hover{
+.button-red-inv:hover{
 
-border:3px solid #da2c11;
+border:3px solid #b81e06;
 transition:0.25s ease;
-color:#da2c11;
+color:#b81e06;
 }
-.btn-bright-inv{
+.button-bright-inv{
 font-family: signika;
 color:grey;
 font-size:1.1rem;
@@ -322,13 +315,13 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-bright-inv:hover{
+.button-bright-inv:hover{
 
 border:3px solid white;
 transition:0.25s ease;
 color:white;
 }
-.btn-violet-inv{
+.button-violet-inv{
 font-family: signika;
 color:aliceblue;
 font-size:1.1rem;
@@ -341,7 +334,7 @@ cursor: pointer;
 outline:none;
 
 }
-.btn-violet-inv:hover{
+.button-violet-inv:hover{
 border:3px solid violet;
 transition:0.25s ease;
 color:violet;
@@ -361,92 +354,92 @@ margin-bottom: 30px;
 .pad{
 margin-left:10px;
 }
-.btn-blue-neon{
+.button-blue-neon{
 font-family: signika;
 color:white;
 font-size:1.1rem;
-background-color:#008cff;
-border:3px solid #008cff;
+background-color:#0068BD;
+border:3px solid #0068BD;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-blue-neon:hover{
-box-shadow: 0 0 5px #067cdd, 0 0 25px #067cdd, 0 0 50px #067cdd, 0 0 200px #067cdd;
-background-color:#067cdd;
-border:3px solid #067cdd;
+.button-blue-neon:hover{
+box-shadow: 0 0 5px #024e8b, 0 0 25px #024e8b, 0 0 50px #024e8b, 0 0 200px #024e8b;
+background-color:#024e8b;
+border:3px solid #024e8b;
 transition:0.25s ease;
 }
-.btn-green-neon{
+.button-green-neon{
 font-family: signika;
 color:white;
 font-size:1.1rem;
-background-color:#23c214;
-border:3px solid #23c214;
+background-color:#14790B;
+border:3px solid #14790B;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-green-neon:hover{
-box-shadow: 0 0 5px #189e0c, 0 0 25px #189e0c, 0 0 50px #189e0c, 0 0 200px #189e0c;
-background-color:#189e0c ;
-border:3px solid #189e0c;
+.button-green-neon:hover{
+box-shadow: 0 0 5px #1d6417, 0 0 25px #1d6417, 0 0 50px #1d6417, 0 0 200px #1d6417;
+background-color:#1d6417 ;
+border:3px solid #1d6417;
 transition:0.25s ease;
 }
-.btn-yellow-neon{
+.button-yellow-neon{
 font-family: signika;
 color:black;
 font-size:1.1rem;
-background-color:#eed707;
-border:3px solid #eed707;
+background-color:#E2C803;
+border:3px solid #E2C803;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-yellow-neon:hover{
-box-shadow: 0 0 5px #d8c412, 0 0 25px #d8c412, 0 0 50px #d8c412, 0 0 200px #d8c412;
-background-color:#d8c412 ;
-border:3px solid #d8c412;
+.button-yellow-neon:hover{
+box-shadow: 0 0 5px #bdad1c, 0 0 25px #bdad1c, 0 0 50px #bdad1c, 0 0 200px #bdad1c;
+background-color:#bdad1c ;
+border:3px solid #bdad1c;
 transition:0.25s ease;
 }
-.btn-yellow-neon{
+.button-yellow-neon{
 font-family: signika;
 color:black;
 font-size:1.1rem;
-background-color:#eed707;
-border:3px solid #eed707;
+background-color:#E2C803;
+border:3px solid #E2C803;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-red-neon{
+.button-red-neon{
 font-family: signika;
 color:white;
 font-size:1.1rem;
-background-color:#f53518;
-border:3px solid #f53518;
+background-color:#DC2509;
+border:3px solid #DC2509;
 width:90px;
 height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-red-neon:hover{
-box-shadow: 0 0 5px #da2c11, 0 0 25px #da2c11, 0 0 50px #da2c11, 0 0 200px #da2c11;
+.button-red-neon:hover{
+box-shadow: 0 0 5px #b81e06, 0 0 25px #b81e06, 0 0 50px #b81e06, 0 0 200px #b81e06;
 
-background-color:#da2c11 ;
-border:3px solid #da2c11;
+background-color:#b81e06 ;
+border:3px solid #b81e06;
 transition:0.25s ease;
 }
-.btn-bright-neon{
+.button-bright-neon{
 font-family: signika;
 color:black;
 font-size:1.1rem;
@@ -458,14 +451,14 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-bright-neon:hover{
+.button-bright-neon:hover{
 box-shadow: 0 0 5px #e4dddb, 0 0 25px #e4dddb, 0 0 50px #e4dddb, 0 0 200px #e4dddb;
 
 background-color:#e4dddb;
 border:3px solid #e4dddb;
 transition:0.25s ease;
 }
-.btn-violet-neon{
+.button-violet-neon{
 font-family: signika;
 color:white;
 font-size:1.1rem;
@@ -477,14 +470,14 @@ border-radius: 10px;
 cursor: pointer;
 outline:none;
 }
-.btn-violet-neon:hover{
+.button-violet-neon:hover{
 box-shadow: 0 0 5px rgb(216, 91, 216), 0 0 25px rgb(216, 91, 216), 0 0 50px rgb(216, 91, 216), 0 0 200px rgb(216, 91, 216);
 
 background-color:rgb(216, 91, 216);
 border:3px solid rgb(216, 91, 216);
 transition:0.25s ease;
 }
-.btn-brd{
+.button-bread{
 border-radius: 60px;
 }
 .abt-size{
@@ -498,12 +491,12 @@ margin-top:60px;
 margin-bottom:20px;
 }
 
-.btn-lrg{
+.button-large{
 width: 130px;
 height: 3.8rem;
 }
 
-.btn-sml{
+.button-small{
 width:60px;
 height: 2.3rem;
 }

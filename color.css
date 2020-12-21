@@ -13,31 +13,31 @@
   }
 
   /*css main file*/
-  .txt-blue{
-      color:#008cff;
+  .text-blue{
+      color:#0068BD;
   }
-  .txt-green{
-      color: #23c214;
+  .text-green{
+      color: #14790B;
   }
-  .txt-yellow{
-      color: #eed707;
+  .text-yellow{
+      color: #E2C803;
   }
-  .txt-red{
-      color: #f53518;
+  .text-red{
+      color: #DC2509;
   }
-  .txt-dark{
+  .text-dark{
       color: #242222;
   }
-  .txt-bright{
-      color:white;
+  .text-bright{
+      color:#fffcfc;
   }
   .bg-dark{
         background-color: #242222;
   }
-  .txt-violet{
+  .text-violet{
       color: violet;
   }
-  .txt-orange{
+  .text-orange{
       color: orangered;
   }
   .web-align{
@@ -55,13 +55,13 @@
     font-size:1.3r  
   }
 .bg-blue{
-    background-color: #008cff;
+    background-color: #0068BD;
 }
 .bg-green{
-    background-color: #23c214;
+    background-color: #14790B;
 }
 .bg-yellow{
-    background-color: #eed707;
+    background-color: #E2C803;
 }
 .bg-bright{
     background-color: #fff;
@@ -73,7 +73,7 @@
     background-color: orangered;
 }
 .bg-red{
-    background-color: #f53518;
+    background-color: #DC2509;
 }
 .resp-align{
     margin-top:40px;
