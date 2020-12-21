@@ -33,7 +33,7 @@
     margin-top:30px;
     font-family: 'Open Sans', sans-serif;
 }
-.jumbo-btn{
+.jumbo-button{ /*class-abb*/
     font-family: 'Open Sans',sans-serif;
     
     font-size:1rem;
@@ -44,26 +44,26 @@
     outline:none;
     margin-top:15px;
 }
-.btn-center{
+.button-center{ /*class-abb*/
     display: block;
     margin-left:auto;
     margin-right:auto;
 }
 
-.txt-right{
+.text-right{
     text-align: right;
 }
 
-.txt-center{
+.text-center{
     text-align: center;
 }
-.txt-left{
+.text-left{
     text-align: left;
 }
-.txt-justify{
+.text-justify{
     text-align: justify;
 }
-.txt-decoration-none{
+.text-decoration-none{
     text-decoration: none;
 }
 .font-weight-bolder{
@@ -86,147 +86,147 @@ height: 2.7rem;
 border-radius: 10px;
 cursor: pointer;
 }
-.btn-blue{
+.button-blue{
  
     background-color:#008cff;
     border:3px solid #008cff;
     
 }
-    .btn-blue:hover{
+    .button-blue:hover{
     background-color:#067cdd;
     border:3px solid #067cdd;
     transition:0.25s ease;
 }
-    .btn-green{
+    .button-green{
     
     background-color:#23c214;
     border:3px solid #23c214;
     
 }
-    .btn-green:hover{
+    .button-green:hover{
     background-color:#189e0c ;
     border:3px solid #189e0c;
     transition:0.25s ease;
 }
-    .btn-yellow{
+    .button-yellow{
     
     background-color:#eed707;
     border:3px solid #eed707;
     
 }
-    .btn-yellow:hover{
+    .button-yellow:hover{
     background-color:#d8c412 ;
     border:3px solid #d8c412;
     transition:0.25s ease;
 }
-.btn-red{
+.button-red{
     
     background-color:#f53518;
     border:3px solid #f53518;
     
 }
-    .btn-red:hover{
+    .button-red:hover{
     background-color:#da2c11 ;
     border:3px solid #da2c11;
     transition:0.25s ease;
 }
-    .btn-bright{
+    .button-bright{
    
     background-color:#fffcfc;
     border:3px solid #fffcfc;
    
 }
-    .btn-bright:hover{
+    .button-bright:hover{
     background-color:#e4dddb;
     border:3px solid #e4dddb;
     transition:0.25s ease;
 }
-    .btn-dark{
+    .button-dark{
     
     background-color:#242222;
     border:3px solid #242222;
     
 }
-.btn-dark:hover{
+.button-dark:hover{
     background-color:#1b1a1a;
     border:3px solid #1b1a1a;
     transition:0.25s ease;
 }
-.btn-blue-out{
+.button-blue-out{
    
     background:none;
     border:3px solid #008cff;
     
     }
-    .btn-blue-out:hover{
+    .button-blue-out:hover{
     background-color:#067cdd;
     border:3px solid #067cdd;
     transition:0.25s ease;
     color:white;
     }
-    .btn-green-out{
+    .button-green-out{
     
     background:none;
     border:3px solid #23c214;
    
     }
-    .btn-green-out:hover{
+    .button-green-out:hover{
     background-color:#189e0c ;
     border:3px solid #189e0c;
     transition:0.25s ease;
     color:white;
     }
-    .btn-yellow-out{
+    .button-yellow-out{
 
     background:none;
     border:3px solid #eed707;
     
     }
-    .btn-yellow-out:hover{
+    .button-yellow-out:hover{
     background-color:#d8c412 ;
     border:3px solid #d8c412;
     transition:0.25s ease;
     color:black;
     }
     
-    .btn-red-out{
+    .button-red-out{
     
     background:none;
     border:3px solid #f53518;
    
     }
-    .btn-red-out:hover{
+    .button-red-out:hover{
     background-color:#da2c11 ;
     border:3px solid #da2c11;
     transition:0.25s ease;
     color:white;
     }
-    .btn-bright-out{
+    .button-bright-out{
    
     background:none;
     border:3px solid #fffcfc;
    
     }
-    .btn-bright-out:hover{
+    .button-bright-out:hover{
     background-color:aliceblue;
     border:3px solid #e4dddb;
     transition:0.25s ease;
     color:black
     }
-    .btn-violet-out{
+    .button-violet-out{
     
     background:none;
     border:3px solid violet;
    
     
 }
-.btn-violet-out:hover{
+.button-violet-out:hover{
     background-color:violet;
     border:3px solid violet;
     transition:0.25s ease;
     color:white;
 }
-.btn-blue-inv{
+.button-blue-inv{
    
     color:aliceblue;
    
@@ -234,158 +234,158 @@ cursor: pointer;
     border:3px solid aliceblue;
    
     }
-    .btn-blue-inv:hover{
+    .button-blue-inv:hover{
     border:3px solid #067cdd;
     transition:0.25s ease;
     color:#067cdd;
     }
-    .btn-green-inv{
+    .button-green-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
    
     }
-    .btn-green-inv:hover{
+    .button-green-inv:hover{
     
     border:3px solid #189e0c;
     transition:0.25s ease;
     color:#189e0c;
     }
-    .btn-yellow-inv{
+    .button-yellow-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
    
     }
-    .btn-yellow-inv:hover{
+    .button-yellow-inv:hover{
     
     border:3px solid #d8c412;
     transition:0.25s ease;
     color:#d8c412;
     }
     
-    .btn-red-inv{
+    .button-red-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
     
     }
-    .btn-red-inv:hover{
+    .button-red-inv:hover{
     
     border:3px solid #da2c11;
     transition:0.25s ease;
     color:#da2c11;
     }
-    .btn-bright-inv{
+    .button-bright-inv{
     color:grey;
     background:none;
     border:3px solid grey;
     }
-    .btn-bright-inv:hover{
+    .button-bright-inv:hover{
     
     border:3px solid white;
     transition:0.25s ease;
     color:white;
     }
-    .btn-violet-inv{
+    .button-violet-inv{
     color:aliceblue;
     background:none;
     border:3px solid aliceblue;
     
     }
-    .btn-violet-inv:hover{
+    .button-violet-inv:hover{
     border:3px solid violet;
     transition:0.25s ease;
     color:violet;
     }
-    .btn-blue-neon{
+    .button-blue-neon{
         background-color:#008cff;
         border:3px solid #008cff;
        
         }
-        .btn-blue-neon:hover{
+        .button-blue-neon:hover{
         box-shadow: 0 0 5px #067cdd, 0 0 25px #067cdd, 0 0 50px #067cdd, 0 0 200px #067cdd;
         background-color:#067cdd;
         border:3px solid #067cdd;
         transition:0.25s ease;
         }
-        .btn-green-neon{
+        .button-green-neon{
         background-color:#23c214;
         border:3px solid #23c214;
        
         }
-        .btn-green-neon:hover{
+        .button-green-neon:hover{
         box-shadow: 0 0 5px #189e0c, 0 0 25px #189e0c, 0 0 50px #189e0c, 0 0 200px #189e0c;
         background-color:#189e0c ;
         border:3px solid #189e0c;
         transition:0.25s ease;
         }
-        .btn-yellow-neon{
+        .button-yellow-neon{
        
         background-color:#eed707;
         border:3px solid #eed707;
        
         }
-        .btn-yellow-neon:hover{
+        .button-yellow-neon:hover{
         box-shadow: 0 0 5px #d8c412, 0 0 25px #d8c412, 0 0 50px #d8c412, 0 0 200px #d8c412;
         background-color:#d8c412 ;
         border:3px solid #d8c412;
         transition:0.25s ease;
         }
-        .btn-yellow-neon{
+        .button-yellow-neon{
         
         background-color:#eed707;
         border:3px solid #eed707;
        
         }
-        .btn-red-neon{
+        .button-red-neon{
        
         background-color:#f53518;
         border:3px solid #f53518;
        
         }
-        .btn-red-neon:hover{
+        .button-red-neon:hover{
         box-shadow: 0 0 5px #da2c11, 0 0 25px #da2c11, 0 0 50px #da2c11, 0 0 200px #da2c11;
         
         background-color:#da2c11 ;
         border:3px solid #da2c11;
         transition:0.25s ease;
         }
-        .btn-bright-neon{
+        .button-bright-neon{
        
         background-color:#fffcfc;
         border:3px solid #fffcfc;
        
         }
-        .btn-bright-neon:hover{
+        .button-bright-neon:hover{
         box-shadow: 0 0 5px #e4dddb, 0 0 25px #e4dddb, 0 0 50px #e4dddb, 0 0 200px #e4dddb;
         
         background-color:#e4dddb;
         border:3px solid #e4dddb;
         transition:0.25s ease;
 }
-.btn-violet-neon{
+.button-violet-neon{
     
     background-color:violet;
     border:3px solid violet;
    
 }
-.btn-violet-neon:hover{
+.button-violet-neon:hover{
     box-shadow: 0 0 5px rgb(216, 91, 216), 0 0 25px rgb(216, 91, 216), 0 0 50px rgb(216, 91, 216), 0 0 200px rgb(216, 91, 216);
         
     background-color:rgb(216, 91, 216);
     border:3px solid rgb(216, 91, 216);
     transition:0.25s ease;
 }
-.btn-brd{
+.button-bread{
     border-radius: 60px;
 }
-.btn-lrg{
+.button-large{
     width: 130px;
     height: 3.8rem;
 }
     
-.btn-sml{
+.button-small{
     width:60px;
     height: 2.3rem;
 }
@@ -395,10 +395,10 @@ cursor: pointer;
     border-radius:5px;
 
 }
-.disp-flex {
+.display-flex {
     display: flex;
   }
-  .disp-inline-flex {
+  .display-inline-flex {
     display: inline-flex;
   }
   .flex-row {
@@ -1189,7 +1189,7 @@ form .form-row .textarea {
 .spinner-blue {
     height: 40px;
     width: 40px;
-   
+   background: none;
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#067cdd;
@@ -1205,7 +1205,8 @@ form .form-row .textarea {
   .spinner-green {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#23c214;
@@ -1222,7 +1223,8 @@ form .form-row .textarea {
   .spinner-red {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#f53518;
@@ -1239,7 +1241,8 @@ form .form-row .textarea {
   .spinner-yellow {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#eed707;
@@ -1255,7 +1258,8 @@ form .form-row .textarea {
   .spinner-dark{
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:black;
@@ -1272,7 +1276,8 @@ form .form-row .textarea {
   .spinner-orange {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:orangered;
@@ -1283,7 +1288,8 @@ form .form-row .textarea {
 .spinner-blue-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#067cdd;
@@ -1296,7 +1302,8 @@ form .form-row .textarea {
   .spinner-green-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#23c214;
@@ -1309,7 +1316,8 @@ form .form-row .textarea {
   .spinner-red-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#f53518;
@@ -1321,7 +1329,8 @@ form .form-row .textarea {
   .spinner-yellow-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:#eed707;
@@ -1332,7 +1341,8 @@ form .form-row .textarea {
   .spinner-dark-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:black;
@@ -1344,7 +1354,8 @@ form .form-row .textarea {
   .spinner-orange-inv {
     height: 40px;
     width: 40px;
-   
+    background: none;
+
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.2);
     border-top-color:orangered;
@@ -1358,6 +1369,7 @@ form .form-row .textarea {
     background: #067cdd;
     border-radius: 50%;
     
+
     opacity: 1;
     animation: spinner4 800ms linear infinite;
     transform: scale(0);
@@ -1422,11 +1434,12 @@ form .form-row .textarea {
 .spinner-arc-blue {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid #1D9AF2;
     border-top: 2px solid #fff;
     animation: spinner1 600ms linear infinite;
+    background: none;
+
   }
   
   @keyframes spinner1 {
@@ -1438,58 +1451,64 @@ form .form-row .textarea {
   .spinner-arc-green {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid #23c214;
     border-top: 2px solid #fff;
     animation: spinner1 600ms linear infinite;
+    background: none;
+
   }
   .spinner-arc-yellow {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid #eed707;
     border-top: 2px solid #fff;
     animation: spinner1 600ms linear infinite;
+    background: none;
+
   }
   
   .spinner-arc-red {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid #f53518;
     border-top: 2px solid #fff;
     animation: spinner1 600ms linear infinite;
+    background: none;
+
   }
   
   .spinner-arc-dark {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid black;
     border-top: 2px solid #fff;
     animation: spinner1 600ms linear infinite;
+    background: none;
+
   }
   
   .spinner-arc-orange {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid orangered;
     border-top: 2px solid #fff;
     animation: spinner1 600ms linear infinite;
+    background: none;
+
   }
   .spinner-arc-violet {
     height: 40px;
     width: 40px;
-    background: white;
     border-radius: 50%;
     border: 5px solid violet;
     border-top: 2px solid #fff;
+    background: none;
+
     animation: spinner1 600ms linear infinite;
 }
 .spinner-duo-blue {
@@ -1501,6 +1520,8 @@ form .form-row .textarea {
     border-top-color: #067cdd;
     border-bottom-color: #067cdd;
     animation: spinner3 800ms ease infinite;
+    background: none;
+
   }
   
   @keyframes spinner3 {
@@ -1517,6 +1538,8 @@ form .form-row .textarea {
     border-top-color: #23c214;
     border-bottom-color: #23c214;
     animation: spinner3 800ms ease infinite;
+    background: none;
+
   }
   .spinner-duo-yellow {
     height: 40px;
@@ -1527,6 +1550,8 @@ form .form-row .textarea {
     border-top-color: #eed707;
     border-bottom-color: #eed707;
     animation: spinner3 800ms ease infinite;
+    background: none;
+
   }
   .spinner-duo-red {
     height: 40px;
@@ -1537,6 +1562,8 @@ form .form-row .textarea {
     border-top-color: #f53518;
     border-bottom-color: #f53518;
     animation: spinner3 800ms ease infinite;
+    background: none;
+
   }
   
   .spinner-duo-dark {
@@ -1548,6 +1575,8 @@ form .form-row .textarea {
     border-top-color: black;
     border-bottom-color: black;
     animation: spinner3 800ms ease infinite;
+    background: none;
+
   }
   
   .spinner-duo-orange {
@@ -1559,11 +1588,14 @@ form .form-row .textarea {
     border-top-color: orangered;
     border-bottom-color: orangered;
     animation: spinner3 800ms ease infinite;
+    background: none;
+
   }
   
   .spinner-lrg{
     width:80px;
     height:80px;
+    
   }
   .spinner-sml{
     width:20px;
@@ -1803,41 +1835,41 @@ form .form-row .textarea {
     padding:5rem;
 }
 
-.txt-blue{
-    color:#008cff;
+.text-blue{
+    color:#0068BD;
 }
-.txt-green{
-    color: #23c214;
+.text-green{
+    color: #14790B;
 }
-.txt-yellow{
-    color: #eed707;
+.text-yellow{
+    color: #E2C803 ;
 }
-.txt-red{
-    color: #f53518;
+.text-red{
+    color: #DC2509;
 }
-.txt-dark{
+.text-dark{
     color: #242222;
 }
-.txt-bright{
+.text-bright{
     color:white;
 }
 .bg-dark{
       background-color: #242222;
 }
-.txt-violet{
+.text-violet{
     color: violet;
 }
-.txt-orange{
+.text-orange{
     color: orangered;
 }
 .bg-blue{
-    background-color: #008cff ;
+    background-color: #0068BD ;
 }
 .bg-green{
-    background-color: #23c214 ;
+    background-color: #14790B ;
 }
 .bg-yellow{
-    background-color: #eed707 ;
+    background-color: #E2C803 ;
 }
 .bg-bright{
     background-color: #fff ;
@@ -1849,7 +1881,7 @@ form .form-row .textarea {
     background-color: orangered ;
 }
 .bg-red{
-    background-color: #f53518   ;
+    background-color: #DC2509   ;
 }
 
 

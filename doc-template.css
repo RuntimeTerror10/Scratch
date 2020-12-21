@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #d4d2d2;
+  background-color: #c7cee6;
 }
 .preloader {
   position: fixed;
@@ -63,7 +63,7 @@ body {
   color: #fff;
 }
 .current {
-  color: #009578;
+  color: #07a183;
 }
 .airplane {
   height: 200px;
@@ -201,12 +201,29 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .comp-list {
   margin-top: 10px;
-  padding-left: 10px;
+ 
   cursor: pointer;
+}
+.left-align{
+  padding-left:40px;
+}
+.para-height{
+  line-height: 10mm;
+}
+.align-link{
+padding-right:40px;
+}
+.nav-align{
+  padding-right:35px;
+}
+.effect-part-align{
+  text-align:left;
+  margin-top:10px;
+  padding-left:40px;
 }
 
 .doc-nav {
@@ -346,7 +363,8 @@ a {
   margin-top: 15px;
   margin-right: 5px;
   font-size: 1.1rem;
-  background-color: #d4d2d2;
+  background-color: #c7cee6;
+
   width: 230px;
   height: 2.7rem;
   border-radius: 10px;
@@ -405,7 +423,8 @@ a {
     color: black;
     float: left;
     font-size: 1.1rem;
-    background-color: #d4d2d2;
+    background-color: #c7cee6;
+
     width: 195px;
     height: 2.7rem;
     border-radius: 10px;
@@ -477,8 +496,16 @@ a {
 .example {
   font-size: 1.19rem;
 }
-.class {
+.inline-code {
   color:rgb(255, 66, 66);
+  font-size:1.2rem;
+  background: rgb(233, 230, 207);
+  padding:4px;
+  font-weight: 700;
+}
+.class{
+  color:rgb(255, 66, 66);
+
 }
 @media (max-width: 426px) {
   .abt-head {
@@ -509,7 +536,7 @@ a {
   );
 }
 .main-hr {
-  margin-top: 70px;
+  margin-top: 110px;
   width: 98%;
   border: 0px;
   background-image: linear-gradient(
@@ -519,5 +546,5 @@ a {
     rgba(0, 0, 0, 0.274)
   );
   height: 3px;
-  margin-bottom: 80px;
+  margin-bottom:80px;
 }
