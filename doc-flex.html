@@ -24,88 +24,83 @@
       <img src="img/cloud.png" alt="cloud1" class="cloud3" />
     </div>
     <nav>
-      <input type="checkbox" id="check" />
+      <input type='checkbox' id='check'></input>
 
-      <aside class="leftbar">
+      <aside class='leftbar'>
+
         <div class="list-content">
           <p class="side-head"><b><a href="start.html"> Getting Started</a></b></p>
 
-          <p class="side-head uti-head" style="padding-right:90px;"><a href="doc-image.html"><b>Effects</b>
+          <p class="side-head uti-head" style="padding-right:90px;"><a href="doc-image.html"><b>Effects
+              </b>
             </a>
           </p>
-          <div class="comp">
+          <div class=" ">
 
-            <a href="doc-image.html">
-              <p class="comp-list side-link">images</p>
+            <a href="doc-image.html" class="current">
+              <p class="effect-part-align">images</p>
             </a>
             <a href="glowtxt.html">
-              <p class="comp-list side-link">Glowing text</p>
+              <p class=" effect-part-align ">Glowing text</p>
             </a>
 
 
           </div>
-          <p class="side-head uti-head">
-            <a href="doc-color.html"><b>Utilities</b> </a>
-          </p>
-          <div class="comp">
-            <p class="comp-list side-link">
-              <a href="doc-border.html">Borders</a>
-            </p>
+
+          <p class="side-head uti-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+          <div class="comp left-align">
+            <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
           </div>
-          <div class="comp">
-            <p class="comp-list side-link">
-              <a href="doc-color.html">Colors</a>
-            </p>
+          <div class="comp left-align">
+            <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
           </div>
-          <div class="comp">
-            <p class="comp-list">
-              <a href="doc-flex.html" class="current">Flex</a>
-            </p>
+          <div class="comp left-align">
+            <p class="comp-list side-link"><a href="doc-flex.html">Flex</a></p>
           </div>
-          <div class="comp">
+          <div class="comp left-align">
             <p class="comp-list side-link"><a href="doc-space.html">Spacing</a></p>
           </div>
 
-          <div class="comp">
-            <p class="comp-list side-link">
-              <a href="doc-txt.html">Text</a>
-            </p>
+          <div class="comp left-align">
+            <p class="comp-list side-link"><a href="doc-txt.html">Text</a></p>
           </div>
 
-          <p class="side-head comp-head"><b>Components</b></p>
+          <p class="side-head uti-head"><a href="doc-badge.html"><b>Components</b> </a>
+          </p>
           <div class="comp">
+
             <a href="doc-badge.html">
-              <p class="comp-list">Badges</p>
+              <p class="comp-list align-link">Badges</p>
             </a>
             <a href="doc-btn.html">
-              <p class="comp-list">Buttons</p>
+              <p class="comp-list align-link">Buttons</p>
             </a>
             <a href="doc-card.html">
-              <p class="comp-list">Cards</p>
+              <p class="comp-list side-link align-link">Cards</p>
             </a>
             <a href="form.html">
-              <p class="comp-list">Forms</p>
+              <p class="comp-list align-link">Forms</p>
             </a>
-            <p class="comp-list side-link">
-              <a href="doc-jumbotron.html">Jumbotron</a>
-            </p>
+            <p class="comp-list side-link left-align"><a href="doc-jumbotron.html">Jumbotron</a></p>
             <a href="nav.html">
-              <p class="comp-list">Navbar</p>
+              <p class="comp-list side-link nav-align">Navbar</p>
             </a>
+
 
             <a href="doc-spin.html">
-              <p class="comp-list side-link">Spinners</p>
-            </a>
+              <p class="comp-list side-link left-align">Spinners
+            </a></p>
           </div>
 
-        </div>
+
       </aside>
       <div>
         <a href="index.html">
-          <img class="logo" src="img/logo-new.png" alt="scratch-logo" />
+          <img class="logo" src="img/logo-new.png" alt="scratch-logo">
         </a>
-        <label for="check" class="button"><i class="fas fa-bars"></i></label>
+        <label for='check' class='button'><i class="fas fa-bars"></i></label>
       </div>
+
     </nav>
     <div class="content">
       <h1 class="main-head">Flex</h1>
@@ -123,7 +118,7 @@
       <h2 class="sub-head">Enable Flexbox behaviour</h2>
       <div class="custom-txt">
         <p class="custom-para">
-          Use <b class="class">"disp-flex"</b> to create a flexbox container
+          Use <code class="inline-code">display-flex</code> to create a flexbox container
           and change the children elements into flex items.
         </p>
       </div>
@@ -140,7 +135,7 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          You can also use <b class="class">"display-inline-flex"</b> to enable
+          You can also use <code class="inline-code">display-inline-flex</code> to enable
           flex behaviour.
         </p>
       </div>
@@ -162,19 +157,19 @@
       <div class="custom-txt">
         <p class="custom-para">
           You can omit the horiztontal direction alignment as the browser sets
-          the display:flex to <b class="class">"row"</b>.
+          the display:flex to <code class="inline-code">row</code>.
         </p>
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the first example <b class="class">"flex-row"</b> is used to align
+          In the first example <code class="inline-code">flex-row</code> is used to align
           the items in row(default). While in second example
-          <b class="class">"flex-row-reverse"</b> is used to align the
+          <code class="inline-code">flex-row-reverse</code> is used to align the
           flex-items in opposite direction.
         </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -194,7 +189,7 @@
       <div class="snip" id="row">
         <code>
           <p class="snip-code">
-            &lt;div class=<b class="class">"...disp-flex flex-row"</b>
+            &lt;div class=<b class="class">"...display-flex flex-row"</b>
 
             &gt;
           </p>
@@ -228,7 +223,7 @@
       </div>
 
       <div class="sample resp-align ">
-        <div class="disp-flex flex-row-reverse pad rounded" style="background-color: #1d2731;">
+        <div class="display-flex flex-row-reverse pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -249,7 +244,7 @@
       <div class="snip" id="row-rev">
         <code>
           <p class="snip-code">
-            &lt;div class=<b class="class">"...disp-flex flex-row"</b>
+            &lt;div class=<b class="class">"...display-flex flex-row"</b>
 
             &gt;
           </p>
@@ -282,11 +277,12 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          Similarly we can align the flex items in vertical direction with <b class="class">"flex-column"</b> and <b
-            class="class">"flex-column-reverse"</b> to start the vertical direction from the opposite side.</p>
+          Similarly we can align the flex items in vertical direction with <code class="inline-code">flex-column</code>
+          and <code class="inline-code">"flex-column-reverse"</code> to start the vertical direction from the opposite
+          side.</p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-col pad rounded ">
+        <div class="display-flex flex-col pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -306,7 +302,7 @@
       <div class="snip" id="col">
         <code>
           <p class="snip-code">
-            &lt;div class=<b class="class">"...disp-flex flex-col"</b>
+            &lt;div class=<b class="class">"...display-flex flex-col"</b>
 
             &gt;
           </p>
@@ -338,7 +334,7 @@
         <hr>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-col-reverse pad rounded ">
+        <div class="display-flex flex-col-reverse pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -358,7 +354,7 @@
       <div class="snip" id="col-rev">
         <code>
           <p class="snip-code">
-            &lt;div class=<b class="class">"...disp-flex flex-col-reverse"</b>
+            &lt;div class=<b class="class">"...display-flex flex-col-reverse"</b>
 
             &gt;
           </p>
@@ -391,38 +387,41 @@
       </div>
       <h2 class="sub-head">Justify-content</h2>
       <div class="custom-txt">
-        <p class="custom-para">
+        <p class="custom-para para-height">
           With <b class="class">"Justify-content"</b> the flex items can be aligned along the main
-          axis(x-axis~<b class="class"> flex-direction:row;</b> || y-axis~<b class="class">flex-direction:column;</b>).
+          axis(x-axis~<code class="inline-code"> flex-direction:row;</code> || y-axis~<code
+            class="inline-code">flex-direction:column;</code>).
         </p>
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          For the x-axis <b class="class">"justify-content"</b> is set to start by default by the browser.
+          For the x-axis <code class="inline-code">justify-content</code> is set to start by default by the browser.
         </p>
       </div>
       <div class="custom-txt">
-        <p class="custom-para">
-          Choose between <b class="class">"justify-content-start"</b> , <b class="class">"justify-content-end"</b> , <b
-            class="class">"justify-content-center"</b> , <b class="class">"justify-content-between"</b> , <b
-            class="class">"justify-content-around"</b> , <b class="class">"justify-content-even"</b> to align the
+        <p class="custom-para para-height">
+          Choose between <code class="inline-code">justify-content-start</code> , <code
+            class="inline-code">justify-content-end</code> , <code class="inline-code">justify-content-center</code>
+          , <code class="inline-code">justify-content-between</code> , <code
+            class="inline-code">justify-content-around</code> , <code class="inline-code">justify-content-even</code> to
+          align the
           flex-items along the main axis.
         </p>
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          Here horizontal alignment <b class="class">("flex-row")</b> is used.
+          Here horizontal alignment <code class="inline-code">flex-row</code> is used.
         </p>
       </div>
 
       <div class="custom-txt">
         <p class="custom-para">
-          In the first example <b class="class">"flex-start"</b> is used.
+          In the first example <code class="inline-code">flex-start  </code> is used.
         </p>
       </div>
 
       <div class="sample resp-align">
-        <div class="disp-flex flex-row justify-content-start pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row justify-content-start pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -442,7 +441,7 @@
       <div class="snip" id="start">
         <code>
               <p class="snip-code">
-                &lt;div class=<b class="class">"...disp-flex flex-row justify-content-start"</b>
+                &lt;div class=<b class="class">"...display-flex flex-row justify-content-start"</b>
     
                 &gt;
               </p>
@@ -475,11 +474,11 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"justify-content-end"</b> is used.
+          In the example given below <code class="inline-code">"justify-content-end</code> is used.
         </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row justify-content-end pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row justify-content-end pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -501,7 +500,7 @@
       <div class="snip" id="end">
         <code>
                 <p class="snip-code">
-                  &lt;div class=<b class="class">"...disp-flex flex-row justify-content-end"</b>
+                  &lt;div class=<b class="class">"...display-flex flex-row justify-content-end"</b>
       
                   &gt;
                 </p>
@@ -534,12 +533,12 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"justify-content-center"</b> is used.
+          In the example given below <code class="inline-code">justify-content-center</code> is used.
         </p>
       </div>
 
       <div class="sample resp-align">
-        <div class="disp-flex flex-row justify-content-center pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row justify-content-center pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -559,7 +558,7 @@
       <div class="snip" id="center">
         <code>
                   <p class="snip-code">
-                    &lt;div class=<b class="class">"...disp-flex flex-row justify-content-center"</b>
+                    &lt;div class=<b class="class">"...display-flex flex-row justify-content-center"</b>
         
                     &gt;
                   </p>
@@ -592,11 +591,11 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"justify-content-between"</b> is used.
+          In the example given below <code class="inline-code">"justify-content-between"</code> is used.
         </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row justify-content-between pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row justify-content-between pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -616,7 +615,7 @@
       <div class="snip" id="btw">
         <code>
                     <p class="snip-code">
-                      &lt;div class=<b class="class">"...disp-flex flex-row justify-content-between"</b>
+                      &lt;div class=<b class="class">"...display-flex flex-row justify-content-between"</b>
           
                       &gt;
                     </p>
@@ -649,11 +648,11 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"justify-content-around"</b> is used.
+          In the example given below <code class="inline-code"> justify-content-around </code> is used.
         </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row justify-content-around pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row justify-content-around pad rounded " style="background-color: #1d2731;">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -673,7 +672,7 @@
       <div class="snip" id="aro">
         <code>
                       <p class="snip-code">
-                        &lt;div class=<b class="class">"...disp-flex flex-row justify-content-around"</b>
+                        &lt;div class=<b class="class">"...display-flex flex-row justify-content-around"</b>
             
                         &gt;
                       </p>
@@ -706,11 +705,11 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"justify-content-even"</b> is used.
+          In the example given below <code class="inline-code">"justify-content-even"</code> is used.
         </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row justify-content-even pad rounded " style="background-color: #1d2731;">
+        <div class="display-flex flex-row justify-content-even pad rounded dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -730,7 +729,7 @@
       <div class="snip" id="even">
         <code>
                       <p class="snip-code">
-                        &lt;div class=<b class="class">"...disp-flex flex-row justify-content-even"</b>
+                        &lt;div class=<b class="class">"...display-flex flex-row justify-content-even"</b>
             
                         &gt;
                       </p>
@@ -765,15 +764,16 @@
       <h2 class="sub-head">Align-items</h2>
       <div class="custom-txt">
         <p class="custom-para">
-          align-items is used to align the flex-items along the cross-axis (Y-axis for <b class="class">"flex-row"</b>
-          and X-axis for<b class="class">"flex-column"</b>).
+          align-items is used to align the flex-items along the cross-axis (Y-axis for <code
+            class="inline-code">flex-row</code>
+          and X-axis for<code class="inline-code">flex-column</code>).
         </p>
       </div>
       <div class="custom-txt">
-        <p class="custom-para">
-          Choose between <b class="class">"align-items-start"</b> , <b class="class">"align-items-end"</b> , <b
-            class="class">"align-items-center"</b> , <b class="class">"align-items-stretch"</b> and <b
-            class="class">"align-items-baseline"</b>.
+        <p class="custom-para para-height">
+          Choose between <code class="inline-code">align-items-start</code> , <code
+            class="inline-code">align-items-end</code> , <code class="inline-code">align-items-center</code> , <code
+            class="inline-code">align-items-stretch</code> and <code class="inline-code">align-items-baseline</code>.
         </p>
       </div>
       <div class="custom-txt">
@@ -783,10 +783,10 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the first example <b class="class">"align-items-start"</b> is used. </p>
+          In the first example <code class="inline-code">align-items-start</code> is used. </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row rounded div-h align-items-start " style="background-color: #1d2731;">
+        <div class="display-flex flex-row rounded div-h align-items-start dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -806,7 +806,7 @@
       <div class="snip" id="ali-start">
         <code>
                           <p class="snip-code">
-                            &lt;div class=<b class="class">"...disp-flex flex-row align-items-start"</b>
+                            &lt;div class=<b class="class">"...display-flex flex-row align-items-start"</b>
                 
                             &gt;
                           </p>
@@ -839,10 +839,10 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"align-items-center"</b> is used. </p>
+          In the example given below <code class="inline-code">align-items-center</code> is used. </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row rounded div-h align-items-center " style="background-color: #1d2731;">
+        <div class="display-flex flex-row rounded div-h align-items-center " style="background-color: #1d2731;">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -862,7 +862,7 @@
       <div class="snip" id="ali-center">
         <code>
                             <p class="snip-code">
-                              &lt;div class=<b class="class">"...disp-flex flex-row align-items-center"</b>
+                              &lt;div class=<b class="class">"...display-flex flex-row align-items-center"</b>
                   
                               &gt;
                             </p>
@@ -895,10 +895,10 @@
       </div>
       <div class="custom-txt">
         <p class="custom-para">
-          In the example given below <b class="class">"align-items-end"</b> is used. </p>
+          In the example given below <code class="inline-code">align-items-end</code> is used. </p>
       </div>
       <div class="sample resp-align">
-        <div class="disp-flex flex-row rounded div-h align-items-end " style="background-color: #1d2731;">
+        <div class="display-flex flex-row rounded div-h align-items-end dark-background">
           <div class="border border-dark txt-bright pad bg-red rounded">
             Item 1
           </div>
@@ -918,7 +918,7 @@
       <div class="snip" id="ali-end">
         <code>
                               <p class="snip-code">
-                                &lt;div class=<b class="class">"...disp-flex flex-row align-items-end"</b>
+                                &lt;div class=<b class="class">"...display-flex flex-row align-items-end"</b>
                     
                                 &gt;
                               </p>
@@ -961,7 +961,7 @@
         <i class="fas fa-home btm-nav-icon"></i>
         <span class="-btm-nav-text">Home</span>
       </a>
-      <a href="doc.html" class="btm-nav-link btm-nav-link-active">
+      <a href="doc-flex.html" class="btm-nav-link btm-nav-link-active">
         <i class="fas fa-file-alt btm-nav-icon"></i>
         <span class="btm-nav-text act">Documentation</span>
       </a>
