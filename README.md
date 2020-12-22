@@ -11,7 +11,7 @@
   <h3 align="center">Scratch-A mini CSS Framework</h3>
 
   <p align="center">
-    An awesome CSS framewok to jumpstart your website!
+    An awesome CSS framework to jumpstart your website!
     <br />
     <a href="https://github.com/RuntimeTerror10/Scratch"><strong>Explore the docs »</strong></a>
     <br />
