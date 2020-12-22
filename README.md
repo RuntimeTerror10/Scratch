@@ -49,7 +49,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="img/screenshot.PNG" alt="scratch-screenshot">
+<img src="img/screenshot.PNG" alt="scratch-website-screenshot">
 <br/>
 
 Scratch is mini CSS framework for giving the users a jumpstart to create a website.
