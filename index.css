@@ -409,8 +409,7 @@
   @media(max-width:463px){
     
     .content .link {
-      margin-top:25px;
-      margin-left: 10px;
+      margin-top:10px;
       background: none;
       padding: 2px 5px;
       font-size: 25px;
@@ -478,8 +477,7 @@
     }
     .abt-scratch{
         width:100%;      
-        margin-left:auto;
-        margin-right:auto;
+       
         display: block;  
        font-size: 10rem;
       
@@ -488,6 +486,7 @@
       margin-top:0px;
       margin-bottom:0px;
     }
+   
   }
   .content {
     
@@ -539,8 +538,8 @@ background: linear-gradient(90deg, transparent,white, transparent);
 margin-left: auto;
 margin-right: auto;
 border: 0;
-margin-top:20px;
-margin-bottom:20px;
+margin-top:10px;
+margin-bottom:10px;
 }
 
 h2 {

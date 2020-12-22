@@ -236,7 +236,7 @@ padding-right:40px;
   background-color: #242d61;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow-x: auto;
   z-index: 1;
   border-top-left-radius: 10px;
