@@ -231,6 +231,10 @@
     font-family: Righteous;
     
   }
+  .nav-pos{
+    position: fixed;
+    top: 0px;
+  }
   nav{
    
     height: 80px;
