@@ -82,7 +82,7 @@ Adding Scratch's stylesheet is very easy . Just follow the given steps given bel
 1. Download the CSS file form the website (https://css-scratch.netlify.app/)
 2. Add the stylsheet link above all the other CSS stylesheet links.
    ```sh
-   < link rel="stylesheet" href="scratch-main.css" >
+   <link rel="stylesheet" href="scratch-main.css">
 
    ```
 
