@@ -103,7 +103,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Paarth_08](https://twitter.com/Paarth_08) 
+Your Name - [@Parth_codes](https://twitter.com/Parth_codes) 
 
 Project Link: [https://github.com/RuntimeTerror10/Scratch](https://github.com/RuntimeTerror10/Scratch)
 
