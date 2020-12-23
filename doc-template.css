@@ -115,19 +115,24 @@ a {
 }
 .leftbar {
   position: fixed;
-  width: 200px;
+  padding: 0 20px;
   height: 100%;
   background-color: #242d61;
   overflow-y: scroll;
   margin-top: 80px;
   bottom: 0;
   top: 0;
+  right: 0;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
-  right: -200px;
+  transform: translateX(100%);
   /* for sidebar to stay on top */
   z-index: 1;
   padding-bottom: 200px;
-  transition: right 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+#check:checked ~ .leftbar {
+  transform: translateX(0);
 }
 
 .exit {
@@ -146,10 +151,6 @@ a {
   font-size: 40px;
   line-height: 80px;
   padding-right: 30px;
-}
-
-#check:checked ~ .leftbar {
-  right: 0px;
 }
 
 #check:checked ~ .content {
@@ -327,7 +328,6 @@ padding-right:40px;
   padding-bottom: 30px;
   overflow: hidden;
   font-family: Fredoka One;
-  font-size: 13px;
   color: white;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
