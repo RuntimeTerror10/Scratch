@@ -3,6 +3,11 @@
   src: url("/assets/Mulish-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
+  font-family: "MulishBold";
+  src: url("/assets/Mulish-VariableFont_wght.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
   font-family: "RobotoSlabBold";
   src: url("/assets/RobotoSlab-VariableFont_wght.ttf") format("truetype");
   font-weight: 800;
@@ -15,9 +20,9 @@
 }
 
 :root {
-  --primary-color: #04081B;
-  --secondary-color: #080F34;
-  --hover-color: #00FEC1;
+  --primary-color: #04081b;
+  --secondary-color: #080f34;
+  --hover-color: #00fec1;
   --text-color: #fff;
 }
 
@@ -60,7 +65,6 @@
   color: var(--text-color);
   font-size: 1.5rem;
 }
-
 
 .nav-link:before {
   position: absolute;

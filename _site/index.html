@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
       <link rel="stylesheet" href="/assets/css/comm.css" />
     <link rel="stylesheet" href="/assets/css/home.css" />
     <title>Scratch UI</title>
@@ -21,13 +22,51 @@
     
   </ul>
 </nav>
-    <div id="particles-js"></div>
-<h1 style="color: #fff">Hello World, This is cover page</h1>
+    
+<div class="wrapper">
+  <div class="container">
+    <div class="title-container">
+      <h1 class="title">SCRATCH.ui</h1>
+    </div>
+    <div class="typed-container">
+      <div class="typed">Create <span class="type"></span> Website!</div>
+      <hr />
+    </div>
+    <div class="link-container">
+      <a href="#" class="link">Download</a>
+      <a href="#" class="link">Get Started</a>
+    </div>
+  </div>
+</div>
   
     <footer class="footer">
 <div class="footer-text">Sponsers</div>
 <div class="footer-text">Copyright @Scratchui 2021</div>
 <div class="footer-text">About Us</div>
-</footer> 
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        new kursor({
+        type: 1,
+        color: '#ffffff', 
+        removeDefaultCursor: true})
+  </script>
+
+  <script>
+  var typed = new Typed(".type", {
+    strings: [
+      "Responsive",
+      "Awesome",
+      "Clean"
+    ],
+    typeSpeed:80,
+    smartBackspace: true,
+    backSpeed: 80, 
+    loop: true,
+    showCursor: false
+  });
+</script>
   </body>
 </html>
+
