@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rohit14kvs/Scratch.git"
+    "url": "git+https://github.com/RuntimeTerror10/Scratch.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rohit14kvs/Scratch/issues"
+    "url": "https://github.com/RuntimeTerror10/Scratch/issues"
   },
-  "homepage": "https://github.com/Rohit14kvs/Scratch#readme",
+  "homepage": "https://github.com/RuntimeTerror10/Scratch#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
   }
