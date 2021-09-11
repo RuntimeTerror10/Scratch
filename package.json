@@ -1,0 +1,23 @@
+{
+  "name": "Scratch",
+  "version": "1.0.0",
+  "description": "A mini CSS UI library .Create websites easily by using the awesome Scratch predefined CSS classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohit14kvs/Scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohit14kvs/Scratch/issues"
+  },
+  "homepage": "https://github.com/Rohit14kvs/Scratch#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
