@@ -96,3 +96,7 @@
   background: var(--secondary-color);
   align-items: center;
 }
+.footer-link {
+  text-decoration: none;
+  color: var(--text-color);
+}

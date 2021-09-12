@@ -1,0 +1,62 @@
+.team-head {
+  font-family: "RobotoSlabBold";
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 2.5rem;
+}
+.team-container {
+  width: 80%;
+}
+.team-wrapper {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.team-img {
+  width: 350px;
+  height: 300px;
+}
+.team-card {
+  border: 7px solid var(--text-color);
+  border-radius: 20px;
+}
+.img-container {
+  background: var(--text-color);
+}
+.img-container img {
+  border-radius: 20px;
+}
+.card-desc {
+  background: var(--text-color);
+}
+
+.member-name {
+  font-family: "MulishBold";
+  font-size: 2.2rem;
+  text-align: center;
+  color: var(--primary-color);
+  padding: 20px 0;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.social-link {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.social-link:hover {
+  transform: scale(1.6);
+}
+.social-link-mid {
+  margin: 0 2.5rem;
+}
