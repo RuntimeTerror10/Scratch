@@ -2,10 +2,11 @@ body {
   background-color: var(--primary-color);
 }
 .wrapper {
+  margin-top: -20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 86vh;
+  height: 90vh;
   color: var(--text-color);
 }
 
