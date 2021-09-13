@@ -86,8 +86,8 @@
   bottom: 0;
   color: var(--text-color);
   display: flex;
-  padding: 2.5rem 4rem;
-  height: 10vh;
+  padding: 0 4rem;
+  min-height: 10vh;
   font-family: "RobotoSlabBold";
   font-size: 1.2rem;
   justify-content: space-between;
