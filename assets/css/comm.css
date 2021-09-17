@@ -139,3 +139,76 @@
   font-size: 1rem;
   flex: 4;
 }
+
+@media (max-width: 900px) {
+  .nav-logo {
+    flex: 1;
+  }
+
+  .copyright {
+    flex: 1.4;
+  }
+
+}
+
+@media (min-width: 900px) and (max-width: 1160px) {
+  .nav-logo {
+    flex: 1.5;
+  }
+  
+  .copyright {
+    flex: 2.5;
+  }
+
+
+}
+
+@media (max-width: 650px) {
+
+  .nav-links-container {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+ .nav-item .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .nav-logo {
+    font-size: 1.7rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0;
+  }
+  .footer-container {
+    width: 80%;
+    justify-content: space-around;
+  }
+
+  .copyright {
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media (max-width:330px) {
+  .copyright {
+    font-size: 0.7rem;
+  }
+
+  .footer-container {
+    font-size: 0.8rem;
+  font-family: "RobotoSlab";
+  }
+}
