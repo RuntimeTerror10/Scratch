@@ -42,7 +42,7 @@
   justify-content: space-between;
   height: 10vh;
   padding: 2.5rem 4rem;
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 .nav-logo {
   color: var(--text-color);
@@ -85,6 +85,7 @@
 .footer {
   bottom: 0;
   color: var(--text-color);
+  background: var(--primary-color);
   display: flex;
   padding: 0 4rem;
   min-height: 10vh;
@@ -92,7 +93,6 @@
   font-size: 1.2rem;
   justify-content: space-between;
   width: 100%;
-  background: var(--secondary-color);
   align-items: center;
   justify-content: space-between;
 }
