@@ -24,6 +24,7 @@
   --secondary-color: #080f34;
   --hover-color: #00fec1;
   --text-color: #fff;
+  --box-shadow: 0 6px 10px rgba(4, 8, 27, 0.788);
 }
 
 * {
@@ -41,8 +42,9 @@
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-  padding: 2.5rem 4rem;
+  padding: 2.2rem 4rem;
   background: var(--primary-color);
+  box-shadow: 0 6px 15px rgba(4, 8, 27, 0.788);
 }
 .nav-logo {
   color: var(--text-color);
@@ -95,6 +97,7 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 -6px 10px rgba(4, 8, 27, 0.788);
 }
 
 .footer-container {
