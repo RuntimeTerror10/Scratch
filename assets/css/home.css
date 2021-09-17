@@ -58,3 +58,37 @@ hr {
   margin-top: 1rem;
   box-shadow: 0 10px 10px -10px var(--hover-color) inset;
 }
+@media (max-width: 600px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .typed {
+    font-size: 1.5rem;
+  }
+  hr {
+    width: 80%;
+  }
+  .link {
+    font-size: 1.3rem;
+    margin: 0 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 3rem;
+  }
+  .typed {
+    font-size: 1.3rem;
+  }
+  .link {
+    font-size: 1.1rem;
+    margin: 0 0.7rem;
+    padding: 1rem 1.3rem;
+  }
+}
+@media (max-width: 420px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
