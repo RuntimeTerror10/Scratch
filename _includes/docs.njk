@@ -12,10 +12,11 @@ title: docs
     <title>{{ title }}</title>
   </head>
   <body>
-  {% include "header.njk" %}
+  {% include "doc-header.njk" %}
     {{ content | safe }}  
     {% include "sidebarMax.njk" %}
     {% include "footer.njk" %}
   </body>
+  <script src="../scripts/docMenu.js"></script>
 </html>
 

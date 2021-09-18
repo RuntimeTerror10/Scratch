@@ -6,6 +6,8 @@
   background-color: var(--primary-color);
   padding: 100px 10px;
   overflow-y: scroll;
+  box-shadow: -7px 0 15px rgba(0, 0, 0, 0.3);
+  transition: 0.25s ease-in-out;
 }
 .sidebar-links-container {
   list-style: none;
@@ -49,4 +51,17 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+.home,
+.about {
+  display: none;
+}
+@media (max-width: 650px) {
+  .sidebar-container {
+    right: -263px;
+  }
+  .home,
+  .about {
+    display: block;
+  }
 }
