@@ -1,0 +1,52 @@
+.sidebar-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--primary-color);
+  padding: 100px 10px;
+  overflow-y: scroll;
+}
+.sidebar-links-container {
+  list-style: none;
+  padding: 0 60px;
+  margin: 10px 0;
+  margin-top: 0px;
+}
+.sidebar-head,
+.sidebar-head-link,
+.sidebar-links-item {
+  font-family: "RobotoSlab";
+  color: var(--text-color);
+}
+.sidebar-head {
+  margin-top: 10px;
+  font-family: "RobotoSlabBold";
+}
+.sidebar-links-item {
+  font-size: 1.3rem;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 0.2s ease-in-out;
+}
+.sidebar-link:hover {
+  color: rgb(207, 207, 207);
+}
+.sidebar-head-link {
+  padding: 10px 5px;
+}
+.sidebar-head,
+.sidebar-head-link {
+  font-size: 1.4rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
