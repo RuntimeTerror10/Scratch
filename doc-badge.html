@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="doc-badge.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Badge | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b><a href="start.html"> Getting Started</a></b></p>
+
+                    <p class="side-head uti-head" style="padding-right:90px;"><a href="doc-image.html"><b>Effects
+                            </b>
+                        </a>
+                    </p>
+                    <div class=" ">
+
+                        <a href="doc-image.html">
+                            <p class="effect-part-align">images</p>
+                        </a>
+                        <a href="glowtxt.html">
+                            <p class=" effect-part-align ">Glowing text</p>
+                        </a>
+
+
+                    </div>
+
+                    <p class="side-head uti-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+                    </div>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-flex.html">Flex</a></p>
+                    </div>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-space.html">Spacing</a></p>
+                    </div>
+
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text</a></p>
+                    </div>
+
+                    <p class="side-head uti-head"><a href="doc-badge.html"><b>Components</b> </a>
+                    </p>
+                    <div class="comp">
+
+                        <a href="doc-badge.html">
+                            <p class="comp-list align-link current">Badges</p>
+                        </a>
+                        <a href="doc-btn.html">
+                            <p class="comp-list align-link">Buttons</p>
+                        </a>
+                        <a href="doc-card.html">
+                            <p class="comp-list side-link align-link">Cards</p>
+                        </a>
+                        <a href="form.html">
+                            <p class="comp-list align-link">Forms</p>
+                        </a>
+                        <a href="doc-jumbotron.html">
+                            <p class="comp-list side-link">Jumbotron</p>
+                        </a>
+                        <a href="nav.html">
+                            <p class="comp-list side-link ">Navbar</p>
+                        </a>
+
+
+                        <a href="doc-spin.html">
+                            <p class="comp-list side-link ">Spinners</p>
+                        </a>
+                    </div>
+
+
+            </aside>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+                </a>
+                <label for='check' class='sidebar-button'><i class="fas fa-bars"></i></label>
+            </div>
+
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Badges</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i> Badges are used as labels or tags.
+            </p>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>A badge can communicate to users what
+                content is about,to describe a section of a website and can also convey information scent. </p>
+            <div class="sample resp-align">
+                <h1 class="align">Heading <span class="badge">New</span></h1>
+                <h2 class="align">Heading <span class="badge">New</span></h2>
+                <h3 class="align">Heading <span class="badge">New</span></h3>
+                <h4 class="align">Heading <span class="badge">New</span></h4>
+                <h5 class="align">Heading <span class="badge">New</span></h5>
+
+            </div>
+
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+
+            <div class="snip" id="dflt">
+                <code>
+                           <p class="snip-code"> &lt;h1&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;New&lt;/span&gt;&lt;/h1&gt;</p>
+                           <p class="snip-code"> &lt;h2&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;New&lt;/span&gt;&lt;/h2&gt;</p>
+                           <p class="snip-code"> &lt;h3&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;New&lt;/span&gt;&lt;/h3&gt;</p>
+                           <p class="snip-code"> &lt;h4&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;New&lt;/span&gt;&lt;/h4&gt;</p>
+                           <p class="snip-code"> &lt;h5&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;New&lt;/span&gt;&lt;/h5&gt;</p>
+
+                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">You can also add icons and numbers in the badges. For icons make sure you have
+                    added the FontAwesome link in your html file.</p>
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">If you have not added the link , copy this link in to your HTML file: </p>
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para link">&lt;link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p>
+            </div>
+            <div class="sample resp-align">
+                <h1 class="align">Heading <span class="badge"><i class="fas fa-fire"></i></span></h1>
+                <h2 class="align">Heading <span class="badge"><i class="fas fa-fire"></i></span></h2>
+                <h3 class="align">Heading <span class="badge"><i class="fas fa-fire"></i></span></h3>
+                <h4 class="align">Heading <span class="badge"><i class="fas fa-fire"></i></span></h4>
+                <h5 class="align">Heading <span class="badge"><i class="fas fa-fire"></i></span></h5>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+            <div class="snip" id="ic">
+                <code>
+                           <p class="snip-code"> &lt;h1&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;&lt;i class="fas fa-fire"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h1&gt;</p>
+                           <p class="snip-code"> &lt;h2&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;&lt;i class="fas fa-fire"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;</p>
+                           <p class="snip-code"> &lt;h3&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;&lt;i class="fas fa-fire"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h3&gt;</p>
+                           <p class="snip-code"> &lt;h4&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;&lt;i class="fas fa-fire"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h4&gt;</p>
+                           <p class="snip-code"> &lt;h5&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;&lt;i class="fas fa-fire"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h5&gt;</p>
+
+                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <div class="sample resp-align">
+                <h1 class="align">Heading <span class="badge">20</span></h1>
+                <h2 class="align">Heading <span class="badge">18</span></h2>
+                <h3 class="align">Heading <span class="badge">15</span></h3>
+                <h4 class="align">Heading <span class="badge">9</span></h4>
+                <h5 class="align">Heading <span class="badge">2</span></h5>
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide2()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+
+            <div class="snip" id="num">
+                <code>
+                           <p class="snip-code"> &lt;h1&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;20&lt;/span&gt;&lt;/h1&gt;</p>
+                           <p class="snip-code"> &lt;h2&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;18&lt;/span&gt;&lt;/h2&gt;</p>
+                           <p class="snip-code"> &lt;h3&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;15&lt;/span&gt;&lt;/h3&gt;</p>
+                           <p class="snip-code"> &lt;h4&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;9&lt;/span&gt;&lt;/h4&gt;</p>
+                           <p class="snip-code"> &lt;h5&gt;Heading &lt;span class="<b class="class">badge bg-dark text-bright</b>"&gt;2&lt;/span&gt;&lt;/h5&gt;</p>
+
+                        </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">Background color and text color can be altered either by using the pre-defined
+                    color classes in utilities or you can addd your own colors by add your custom css class.</p>
+            </div>
+            <div class="custom-txt">
+                <p class="custom-para">To know more about Scratch's pre-defined color classes click <a
+                        href="doc-color.html" style="color: blue;">here</a>.</p>
+            </div>
+
+            <div class="custom-txt">
+                <p class="custom-para">Examples given below are used by pre-defined classes in Scratch.</p>
+            </div>
+            <div class="sample resp-align">
+                <h1 class="align">Heading <span class="badge bg-green">New</span></h1>
+                <h2 class="align">Heading <span class="badge bg-red"><i class="fas fa-fire"></i></span></h2>
+                <h3 class="align">Heading <span class="badge text-yellow">8</span></h3>
+
+
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal" onclick="show_hide3()"> Reveal/Hide Code <i class="fas fa-code"> </i></button>
+            </div>
+
+            <div class="snip" id="col">
+                <code>
+                           <p class="snip-code"> &lt;h1&gt;Heading &lt;span class="<b class="class">badge text-bright bg-green</b>"&gt;New&lt;/span&gt;&lt;/h1&gt;</p>
+                           <p class="snip-code"> &lt;h2&gt;Heading &lt;span class="<b class="class">badge text-bright bg-red</b>"&gt;&lt;i class="fas fa-fire"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;</p>
+                           <p class="snip-code"> &lt;h3&gt;Heading &lt;span class="<b class="class">badge bg-dark text-yellow</b>"&gt;8&lt;/span&gt;&lt;/h3&gt;</p>
+
+                        </code>
+
+            </div>
+
+            <div class="main-hr">
+                <hr>
+            </div>
+        </div>
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+        </div>
+        <div class="btm-nav" id="nv">
+
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="doc-badge.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+
+    </body>
+
+    <script src="preloader.js"></script>
+    <script src="badge.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>

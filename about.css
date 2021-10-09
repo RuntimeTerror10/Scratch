@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    
+    background-image:linear-gradient(
+      rgba(13, 4, 66, 0.733), 
+      rgba(11, 56, 139, 0.555)
+    ), url('img/back.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+       
+
+  } 
+  .preloader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #30415d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+.preloader-finish {
+    opacity: 0;
+    position: none;
+    z-index: 0;
+    display: none;
+}
+
+.cloud1,
+.cloud2,
+.cloud3 {
+    height: 100px;
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
+
+.cloud1 {
+    top: 25%;
+    transform: translate(100%, -25%);
+    animation: clouds 3s ease infinite;
+}
+
+.cloud2 {
+    top: 50%;
+    transform: translate(100%, -50%);
+    animation: clouds 3s ease infinite 2s;
+}
+
+.cloud3 {
+    top: 75%;
+    transform: translate(100%, -75%);
+    animation: clouds 3s ease infinite 1.5s;
+}
+
+.preloader h3 {
+    position: absolute;
+    top: 75%;
+    transform: translate(-75%);
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.airplane {
+    height: 200px;
+    animation: airplane 1s ease infinite alternate;
+}
+
+@keyframes airplane {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+@keyframes clouds {
+    from {
+        right: 0;
+    }
+    to {
+        right: 130%;
+    }
+}
+  .exit{
+    display: none;
+    cursor: pointer;
+  }
+  nav{
+   
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    transition: all 0.25 ;
+    z-index:100;
+  }
+  nav.active{
+    background: #000000a8;
+    transition: all 0.1s;
+    z-index:100;
+  }
+  .logo{
+    width:70px;
+    padding:8px;
+    margin-left:8px;
+    margin-top:5px;
+   }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+    
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+  }
+  nav ul li a{
+    color: white;
+    font-size: 1.2rem;
+    padding: 3px 13px;
+    border-radius: 3px;
+    font-family:Eczar;
+  }
+
+  
+  a.active{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-radius: 5px;
+    }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  @media (max-width: 952px){
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      top:0;
+      bottom:0;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(6, 1, 36,1);
+      
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 35px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    nav ul li:hover{
+      display:inline-block;
+      transform: scale(1.2);
+      transition: all 0.25s;
+    }
+    a.active{
+      border-bottom: 2px solid white;
+      border-top: 2px solid white;
+      border-radius: 5px;
+    }
+    #check:checked ~ ul{
+      left:0;
+    }
+    .align-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left:20px;
+      margin-top:10%;
+    }
+    .exit{
+      display: block;
+      color:white;
+      float:right;
+      padding-right:10px;
+      padding-top:5px;
+      font-size: 1.4rem;
+    }
+  }
+  
+  
+  
+  .content{
+    margin-top:100px;
+
+}
+
+.content h1{
+    font-family: Eczar;
+    font-size: 2.5rem;
+    padding-top:2%;
+    text-align:center;
+    color: white;
+
+}
+.team-member{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center;
+    width:auto;
+    padding-top:10px;
+   
+
+}
+.team-member .member{
+    background: #fff;
+    margin:10px;
+   
+    width:300px;
+    padding:10px 0;
+    background-color:rgb(230, 220, 220);
+    border-radius: 20px;
+    border: 5px solid black;
+    box-shadow: 4px 7px 10px black;
+    
+    
+    
+
+}
+
+.team-member .member h3{
+    font-family: Arvo;
+    margin-top:40px;
+}
+.team-member .member p.role{
+    font-family: Eczar;
+
+}
+
+
+.mem-img img{
+    margin-top:-10px;
+    border-radius: 20px;
+    width:100%;
+  
+}
+.ico-size{
+  font-size:2rem;
+}
+.social-links{
+    margin-bottom:20px ;
+    padding-top:5px;
+}
+.social-links a{
+   text-decoration:none;
+   padding:10px 9px;
+   font-size: 1.4rem;
+   color:black;
+   display:inline-block;
+ } 
+
+.social-links a:hover{
+   transform:scale(1.4);
+   transition: all 0.25s;
+}
+
+
+@media screen and (max-width:432px){
+   .team-member{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align:center;
+       width:auto;
+       margin-top:40px;
+   }
+   .res-pos{
+       position: relative;
+       right:20px;
+   }
+
+}
+
+@media screen and (max-width:345px){
+   
+   
+   h4{
+       position: relative;
+       top:20px;
+   }
+   .team-member{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    width:auto;
+    margin-top:40px;
+   }
+ 
+}

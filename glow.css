@@ -1,0 +1,38 @@
+:root{
+    --glow-initial-color:#0f00e6;
+    --glow-final-color:#2a38fa;
+    --glow-initial-color1:#e6000c;
+    --glow-final-color1:#fa2222;
+}
+.glow-container{
+    width:95%;
+   padding:30px;
+    margin-top:50px;
+    margin-left:10px;
+    margin-right:20px ;
+    background: black;
+    display: inline-block;
+    border-radius:15px;
+}
+.glow-txt-align{
+    text-align: center;
+    font-size:2.5rem;
+    margin:0 auto;
+
+}
+.glow-txt{
+  color: #fff;
+  font-family:Sacramento;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--glow-initial-color), 0 0 40px , 0 0 50px var(--glow-initial-color), 0 0 60px var(--glow-initial-color), 0 0 70px var(--glow-initial-color);
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px var(--glow-final-color), 0 0 40px var(--glow-final-color), 0 0 50px var(--glow-final-color), 0 0 60px var(--glow-final-color), 0 0 70px var(--glow-final-color), 0 0 80px var(--glow-final-color);
+    }
+  }

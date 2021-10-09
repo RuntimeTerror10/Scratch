@@ -1,7 +1,119 @@
----
-layout: layout.njk
-title: About Scratch UI
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<h1>Me page</h1>
-<script src="../scripts/menu.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>About Us | Scratch</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="icon" href="img/about-scratch.png">
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="index.html">
+                <img class="logo" src="img/logo-new.png" alt="scratch logo">
+            </a>
+            <ul>
+                <label for="check" class="exit">X</label>
+                <div class="align-links">
+                    <li><a href="index.html"> <i class="fas fa-home  "></i> Home</a></li>
+                    <li><a href="doc-btn.html"> <i class="fas fa-file-alt  "> </i> Documentation</a></li>
+                    <li><a class="active" href="about.html"> <i class="fas fa-user-friends"></i> About Us</a></li>
+                    <li><a href="https://github.com/RuntimeTerror10/Scratch"><i class="fab fa-github ico-size"></i></a>
+
+                </div>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1><i class="fas fa-fire"></i> Our Team <i class="fas fa-fire"></i></h1>
+            <div class="team-member">
+                <div class="member " data-aos="fade-right" data-aos-delay="200">
+                    <div class="mem-img">
+                        <img src="img/BHARDWAJ.png" alt="parth bhardwaj">
+                    </div>
+                    <h3>Parth Bhardwaj</h3>
+                    <br>
+                    <p class="role">Frontend Developer</p>
+                    <p class="social-links">
+                        <a href="https://twitter.com/parth_codes">
+                            <span>
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/parth-bhardwaj-21a316192/">
+                            <span>
+                                <i class="fab fa-linkedin"></i>
+                            </span>
+                        </a>
+                        <a href="https://github.com/RuntimeTerror10">
+                            <span>
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </a>
+
+                    </p>
+
+                </div>
+                <div class="member  res-pos" style="margin-left:50px" data-aos="fade-right" data-aos-delay="400">
+                    <div class="mem-img">
+                        <img src="img/wadhwani.jpeg" alt="parth wadhwani">
+                    </div>
+                    <h3>Parth Wadhwani</h3>
+                    <br>
+                    <p class="role">Frontend Developer</p>
+
+                    <p class="social-links">
+
+
+
+
+                        <span>
+                            <a href="https://www.linkedin.com/in/parth-wadhwani-062163190">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </span>
+                        </a>
+
+                        <span>
+                            <a href="https://github.com/Parthwadhwani">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        </a>
+
+
+
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="scroll.js"></script>
+    <script src="preloader.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</html>

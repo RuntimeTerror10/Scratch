@@ -1,21 +1,109 @@
----
-layout: layout.njk
-title: Scratch UI
----
+<!DOCTYPE html>
 
-<div class="wrapper">
-  <div class="container">
-    <div class="title-container">
-      <h1 class="title">SCRATCH.ui</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Scratch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+
+    <meta property="og:title" content="Scratch">
+    <meta property="og:description" content="CSS UI library">
+    <meta property="og:image" content="https://css-scratch.netlify.app/img/banner.jpg">
+    <meta property="og:url" content="https://css-scratch.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="icon" href="img/about-scratch.png">
+  </head>
+
+  <body>
+    <div class="preloader">
+      <img src="img/airplane.png" alt="airplane" class="airplane">
+      <h3>LOADING...</h3>
+      <img src="img/cloud.png" alt="cloud1" class="cloud1">
+      <img src="img/cloud.png" alt="cloud1" class="cloud2">
+      <img src="img/cloud.png" alt="cloud1" class="cloud3">
     </div>
-    <div class="typed-container">
-      <div class="typed">Create <span class="type"></span> Website!</div>
-      <hr />
+    <div id="main-top" class="nav-pos"></div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <a href="index.html">
+        <img class="logo" src="img/logo-new.png" alt="scratch logo">
+
+      </a>
+      <ul class="side-nav">
+        <label for="check" class="exit">X</label>
+        <div class="align-links">
+          <li><a class="active" href="#"> <i class="fas fa-home btm-nav-icon"></i> Home</a></li>
+          <li><a href="doc-btn.html"> <i class="fas fa-file-alt btm-nav-icon"> </i> Documentation</a></li>
+
+          <li><a href="about.html"> <i class="fas fa-user-friends btm-nav-icon"></i> About Us</a></li>
+          <li><a href="https://github.com/RuntimeTerror10/Scratch"><i class="fab fa-github ico-size"></i></a>
+
+        </div>
+      </ul>
+    </nav>
+    <aside>
+      <div class="area">
+        <ul class="no_ani">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </aside>
+    <br />
+    <br />
+    <div class="content">
+      <h1>Scratch!</h1>
+      <h2>Create <span class="type"></span>Website !!</h2>
+      <hr>
+      <a href="start.html">
+        <div class="link alig">Get Started</div>
+      </a>
+      <a href="scratch-main.css" download>
+        <div class="link alig">Download</div>
+      </a>
     </div>
-    <div class="link-container">
-      <a href="#" class="link">Download</a>
-      <a href="#" class="link">Get Started</a>
+    <div class="learn">
+      <a href="abt-scratch.html">
+        <div class="abt-scratch link alig">About Scratch</div>
+      </a>
+
     </div>
-  </div>
-</div>
-<script src="./scripts/menu.js"></script>
+  </body>
+
+  <script src="type-js/typed.js"></script>
+  <script src="scroll.js"></script>
+  <script src="preloader.js"></script>
+  <script>
+    var typed3 = new Typed('.type', {
+      strings: ["Responsive", "Awesome", "Clean"],
+      typeSpeed: 60,
+      backSpeed: 60,
+      smartBackspace: true,
+      loop: true
+    });
+
+  </script>
+
+
+</html>

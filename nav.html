@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="doc-template.css">
+        <link rel="stylesheet" href="nav.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/about-scratch.png">
+        <title>Navbar | Scratch</title>
+    </head>
+
+    <body>
+        <div class="preloader">
+            <img src="img/airplane.png" alt="airplane" class="airplane">
+            <h3>LOADING...</h3>
+            <img src="img/cloud.png" alt="cloud1" class="cloud1">
+            <img src="img/cloud.png" alt="cloud1" class="cloud2">
+            <img src="img/cloud.png" alt="cloud1" class="cloud3">
+        </div>
+        <nav>
+            <input type='checkbox' id='check'></input>
+
+            <aside class='leftbar'>
+
+                <div class="list-content">
+                    <p class="side-head"><b><a href="start.html"> Getting Started</a></b></p>
+
+                    <p class="side-head uti-head" style="padding-right:90px;"><a href="doc-image.html"><b>Effects
+                            </b>
+                        </a>
+                    </p>
+                    <div class=" ">
+
+                        <a href="doc-image.html">
+                            <p class="effect-part-align">images</p>
+                        </a>
+                        <a href="glowtxt.html">
+                            <p class=" effect-part-align ">Glowing text</p>
+                        </a>
+
+
+                    </div>
+
+                    <p class="side-head uti-head"><a href="doc-color.html"><b>Utilities</b> </a></p>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-border.html">Borders</a></p>
+                    </div>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-color.html">Colors</a></p>
+                    </div>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-flex.html">Flex</a></p>
+                    </div>
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-space.html">Spacing</a></p>
+                    </div>
+
+                    <div class="comp left-align">
+                        <p class="comp-list side-link"><a href="doc-txt.html">Text</a></p>
+                    </div>
+
+                    <p class="side-head uti-head"><a href="doc-badge.html"><b>Components</b> </a>
+                    </p>
+                    <div class="comp">
+
+                        <a href="doc-badge.html">
+                            <p class="comp-list align-link">Badges</p>
+                        </a>
+                        <a href="doc-btn.html">
+                            <p class="comp-list align-link">Buttons</p>
+                        </a>
+                        <a href="doc-card.html">
+                            <p class="comp-list side-link align-link">Cards</p>
+                        </a>
+                        <a href="form.html">
+                            <p class="comp-list align-link">Forms</p>
+                        </a>
+                        <a href="doc-jumbotron.html">
+                            <p class="comp-list side-link">Jumbotron</p>
+                        </a>
+                        <a href="nav.html">
+                            <p class="comp-list current">Navbar</p>
+                        </a>
+
+
+                        <a href="doc-spin.html">
+                            <p class="comp-list side-link">Spinners
+                        </a></p>
+                    </div>
+
+
+            </aside>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-new.png" alt="scratch-logo">
+                </a>
+                <label for='check' class='sidebar-button'><i class="fas fa-bars"></i></label>
+            </div>
+
+        </nav>
+        <div class="content">
+            <h1 class="main-head">Navbar</h1>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>A navigation bar is a user interface
+                element within a webpage that contains links to other sections of the website</p>
+            <p class="abt-head"><i class="fas fa-angle-double-right abt-icon"></i>The navigation bar is an important
+                element of a website's design since it allows users to quickly visit any section within the site.</p>
+            <h2 class="sub-head">A simple responsive Navbar</h2>
+            <div class="sample">
+                <div class="sample">
+                    <div class="nav-center">
+                        <div class="navbar">
+                            <a class="nav-active navbar-link" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                            <a href="#" class="navbar-link"> <i class="fas fa-file-alt"></i> Documentation</a>
+                            <a href="#" class="navbar-link"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                            <a href="#" class="navbar-link"><i class="fa fa-fw fa-user "></i> Login</a>
+                        </div>
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal out-reveal" onclick="show_hide()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="nav">
+                <code>
+                        <p class="snip-code"> &lt;div class=&quot;<b class="class">navbar</b>&quot;&gt;</p>
+                        <p class="snip-code code-al"> &lt;a class=&quot;<b class="class">nav-active navbar-link</b>&quot; href=&quot;#&quot;&gt;&lt;i
+                            class=&quot;fa
+                            fa-fw fa-home&quot;&gt;&lt;/i&gt; Home&lt;/a&gt;</p>
+                        <p class="snip-code code-al"> &lt;a href=&quot;#&quot;class="<b class="class">navbar-link</b>"&gt; &lt;i class=&quot;fas
+                            fa-file-alt&quot;&gt;&lt;/i&gt; Documentation&lt;/a&gt;</p>
+                        <p class="snip-code code-al">&lt;a href=&quot;#&quot;class="<b class="class">navbar-link</b>"&gt;&lt;i class=&quot;fa fa-fw
+                            fa-envelope&quot;&gt;&lt;/i&gt; Contact&lt;/a&gt;</p>
+                        <p class="snip-code code-al">&lt;a href=&quot;#&quot;class="<b class="class">navbar-link</b>"&gt;&lt;i class=&quot;fa fa-fw fa-user
+                            &quot;&gt;&lt;/i&gt;Login&lt;/a&gt;</p>
+                        <p class="snip-code"> &lt;/div&gt;</p>
+                </code>
+
+            </div>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <h2 class="sub-head">Navbar with search bar</h2>
+            <div class="sample">
+                <div class="nav-center">
+                    <div class="topnav">
+                        <a class="nav-active topnav-link" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+                        <a href="#about" class="topnav-link"> <i class="fas fa-file-alt"></i>
+                            Documentation</a>
+                        <a href="#contact" class="topnav-link"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                        <div class="search-container">
+                            <form>
+                                <input type="text" placeholder="Search.." name="search">
+                                <button type="submit" class="nav-button">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="align-show-btn">
+                <button class="reveal out-reveal" onclick="show_hide1()"> Reveal/Hide Code <i class="fas fa-code">
+                    </i></button>
+            </div>
+            <div class="snip" id="inp">
+                <code>
+                       <p class="snip-code"> &lt;div class=&quot;<b class="class">topnav</b>&quot;&gt;</p>
+                       <p class="snip-code code-al"> &lt;a class=&quot;<b class="class">nav-active topnav-link</b>&quot; href=&quot;#home&quot;&gt;&lt;i class=&quot;fa fa-fw fa-home&quot;&gt;&lt;/i&gt; Home&lt;/a&gt;</p>
+                       <p class="snip-code code-al"> &lt;a href=&quot;#about&quot; class=&quot;<b class="class">topnav-link</b>&quot;&gt;&lt;i class=&quot;fas fa-file-alt&quot;&gt;&lt;/i&gt; Documentation&lt;/a&gt;</p>
+                       <p class="snip-code code-al"> &lt;a href=&quot;#contact&quot; class=&quot;<b class="class">topnav-link</b>&quot;&gt;&lt;i class=&quot;fa fa-fw fa-envelope&quot;&gt;&lt;/i&gt; Contact&lt;/a&gt;</p>
+                       <p class="snip-code code-al"> &lt;div class=&quot;<b class="class">search-container</b>&quot;&gt;</p>
+                       <p class="snip-code code-al2"> &lt;form&gt;</p>
+                       <p class="snip-code code-al3"> &lt;input type=&quot;text&quot; placeholder=&quot;Search..&quot; name=&quot;search&quot;&gt;</p>
+                       <p class="snip-code code-al3"> &lt;button type=&quot;submit&quot; class=&quot;<b class="class">nav-button</b>&quot;&gt;Submit&lt;/button&gt;</p>
+                       <p class="snip-code code-al2"> &lt;/form&gt;</p>
+                       <p class="snip-code code-al"> &lt;/div&gt;</p>
+                       <p class="snip-code"> &lt;/div&gt;</p>
+
+                       <p class="snip-code"> &lt;div&gt;</p>
+                       <p class="snip-code code-al"> &lt;h2&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit,&lt;/h2&gt;</p>
+                       <p class="snip-code code-al"> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit,&lt;/p&gt;</p>
+                       <p class="snip-code code-al"> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit,&lt;/p&gt;</p>
+                       <p class="snip-code"> &lt;/div&gt;</p>
+                </code>
+            </div>
+
+
+        </div>
+        <div class="align-arrow">
+            <div class="btm-arrow" id="ar" onclick="pop()">
+                <i class="fas fa-angle-double-up arrow" id="a"></i>
+            </div>
+        </div>
+        <div class="btm-nav" id="nv">
+
+            <a href="index.html" class="btm-nav-link">
+                <i class="fas fa-home btm-nav-icon"></i>
+                <span class="-btm-nav-text">Home</span>
+            </a>
+            <a href="nav.html" class="btm-nav-link btm-nav-link-active">
+                <i class="fas fa-file-alt btm-nav-icon"></i>
+                <span class="btm-nav-text act">Documentation</span>
+            </a>
+
+
+            <a href="about.html" class="btm-nav-link">
+                <i class="fas fa-user-friends btm-nav-icon"></i>
+                <span class="btm-nav-text">About Us</span>
+            </a>
+
+        </div>
+
+
+    </body>
+
+    <script src="preloader.js"></script>
+    <script src="nav.js"></script>
+    <script src="btm-nav-anim.js"></script>
+
+</html>

@@ -1,0 +1,337 @@
+*{
+    outline: cornsilk;
+}
+:root{
+    --submit-initial:#c850c0;
+    --submit-final:#4158d0;
+}
+.login-div {
+    margin:0 auto;
+    max-width: 380px;
+    min-width:200px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-div .login-title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.login-div form {
+    padding: 10px 30px 50px 30px;
+}
+
+.login-div form .field {
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.login-div form .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.login-div form .field input:focus,
+form .field input:valid {
+    border-color: #4158d0;
+}
+
+.login-div form .field label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+form .field input:focus~label,
+form .field input:valid~label {
+    top: 0%;
+    font-size: 16px;
+    color: #4158d0;
+    background: #fff;
+    transform: translateY(-50%);
+}
+
+form .login-att {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form .login-att .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .login-att input {
+    width: 15px;
+    height: 15px;
+    
+}
+.text-dark{
+    color:black;
+}
+.bg-dark{
+    background: black;
+}
+.text-bright{
+    color:white;
+}
+
+
+form .login-att label {
+    color: #262626;
+    user-select: none;
+    padding-left: 5px;
+}
+
+form .login-att .pass-link {
+    color: "";
+}
+
+form .field input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, var(--submit-initial), var(--submit-final));
+    transition: all 0.3s ease;
+}
+
+form .field input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+form .signup-link {
+    color: #262626;
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .pass-link a,
+form .signup-link a {
+    color: #4158d0;
+    text-decoration: none;
+}
+
+form .pass-link a:hover,
+form .signup-link a:hover {
+    text-decoration: underline;
+}
+.code-al{
+    padding-left: 35px;
+}
+.code-al2{
+    padding-left: 40px;
+}
+.code-al3{
+    padding-left: 45px;
+}
+.code-al3{
+    padding-left: 50px;
+}
+.code-al4{
+    padding-left: 55px;
+}
+.code-al5{
+    padding-left: 60px;
+}
+.contact-div {
+   display:block;
+   border-radius:12px;
+   margin:0 auto;
+    max-width: 800px;
+    background: #fff;
+    min-width: 200px;
+   
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-div .contact-text {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+
+   
+    
+}
+
+.contact-div .contact-text:hover {
+    left: 0;
+}
+
+.contact-div form {
+    padding: 30px 0 0 0;
+}
+
+.contact-div form .form-row {
+    display: flex;
+    margin: 32px 0;
+}
+
+form .form-row .input-data {
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+
+form .form-row .textarea {
+    height: 70px;
+}
+
+.input-data input,
+.textarea textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.input-data input:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.textarea textarea:valid~label {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #3498db;
+}
+
+.textarea textarea {
+    resize: none;
+    padding-top: 10px;
+}
+
+.input-data label {
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.textarea label {
+    width: 100%;
+    bottom: 40px;
+    background: #fff;
+}
+
+.input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+
+.input-data .underline:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus~.underline:before,
+.input-data input:valid~.underline:before,
+.textarea textarea:focus~.underline:before,
+.textarea textarea:valid~.underline:before {
+    transform: scale(1);
+}
+
+.submit-btn .input-data {
+    overflow: hidden;
+    height: 45px;
+    width: 25%;
+}
+
+.submit-btn .input-data .inner {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    transition: all 0.25s;
+}
+
+.submit-btn .input-data:hover .inner {
+    left: 0;
+}
+
+.submit-btn .input-data input {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 700px) {
+    .contact-div .contact-text {
+        font-size: 30px;
+    }
+    .contact-div form {
+        padding: 10px 0 0 0;
+    }
+    .contact-div form .form-row {
+        display: block;
+    }
+    form .form-row .input-data {
+        margin: 35px 0;
+    }
+    .submit-btn .input-data {
+        width: 40%;
+    }
+}
+@media(max-width:372px){
+    .login-att{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .pass-link{
+        margin-top:15px;
+        margin-bottom:30px;
+    }
+    .checkbox{
+        margin-top:45px;
+    }
+ 
+}
